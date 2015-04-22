@@ -66,6 +66,7 @@ P(*Card after Mulligan AND First Draw*) = 1 - (P(*Card NOT in First 3*) * P(*Car
 The 27 comes from the mulliganed cards being re-shuffled back into the deck after the mulliganing phase is over.
 
 ## Second Player - 4 Card Mulligan
+
 ### Card after Mulligan AND first draw
 
 Following the logic of the first player:
