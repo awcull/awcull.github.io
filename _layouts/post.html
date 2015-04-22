@@ -1,0 +1,45 @@
+---
+layout: default
+comments: true
+---
+<div class="post">
+    <div class="wrapper">
+		<div class="pagin-col-wrapper">
+		<div class="pagin-col  pagin-col-1">
+        {% if page.previous.url %} 
+                <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; {{page.previous.title}}</a> 
+        {% endif %} 
+         
+		</div>
+
+		<div class="pagin-col pagin-col-2">
+        {% if page.next.url %} 
+                <a href="{{page.next.url}}" title="next Post: {{page.next.title}}">{{page.next.title}} &raquo; </a> 
+        {% endif %} 
+		</div>
+		</div>
+    </div>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%Y-%m-%d" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+  <article class="post-content">
+    {{ content }}
+  </article>  
+  {% if page.comments %}
+  <div id="disqus_thread"></div>
+	<script type="text/javascript">
+		/* * * CONFIGURATION VARIABLES * * */
+		var disqus_shortname = 'awcull';
+		
+		/* * * DON'T EDIT BELOW THIS LINE * * */
+		(function() {
+			var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+			dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+			(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+	{% endif %}
+  
+</div>
