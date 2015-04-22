@@ -21,9 +21,9 @@ The probability of getting the card is in the first 3 becomes:
 
 P(*Card in First 3*) = 1 - P(*Card NOT in opening*) = 1 - # of combinations / # of total combinations
 
-```r
+{% highlight r %}
 1 - choose(27, 2)/choose(30, 2)
-```
+{% endhighlight %}
 
 ```
 ## [1] 0.1931
@@ -36,9 +36,9 @@ From this, calculating the the probability of getting the card in the second set
 
 P(*Card after Mulligan*) = 1 - (P(*Card NOT in First 3*) * P(*Card NOT After First 3*))
 
-```r
+{% highlight r %}
 1 - (choose(27, 2)/choose(30, 2)) * (choose(24, 2)/choose(27, 2))
-```
+{% endhighlight %}
 
 ```
 ## [1] 0.3655
