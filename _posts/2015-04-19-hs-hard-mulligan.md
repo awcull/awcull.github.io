@@ -16,7 +16,9 @@ In Hearthstone there are certain decks that benefit greatly from having at least
 For this, it is assumed that the player has two copies of the card in the deck.  To calculate the probability of drawing a number of cards and getting a specific card can be done using combinations.  To do this, calculating the probability of NOT drawing the card is calculated such that:  P(*drawing card*) = 1 - P(*NOT drawing the card*).
 
 ## First Player - 3 Card Mulligan
+
 ### Card in First 3
+
 The probability of getting the card is in the first 3 becomes:
 
 P(*Card in First 3*) = 1 - P(*Card NOT in opening*) = 1 - # of combinations / # of total combinations
