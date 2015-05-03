@@ -10,7 +10,7 @@ categories: hearthstone
 |:---------------:|:----------:|:----:|:------:|:----:|:-----:|
 |       87        |     10     |  52  |   35   |  0   | 59.77 |
 
-![plot of Season 13 Progress]({{ site.url }}/assets/2015-05-02-HS_April_StatsqFactsTab-1.png) 
+![plot of Season 13 Progress]({{ site.url }}/assets/2015-05-02/2015-05-02-HS_April_StatsqFactsTab-1.png) 
 
 ##Season 13
 
