@@ -20,7 +20,7 @@ Season 13 saw a lot of meta changes with [Black Rock Mountain Adventure](http://
 
 ####Handlock
 
-This was a deck I had hoped to continue to learn from last season.  Unforunately, the heavy aggro meta caused me to abandon this deck quite quickly without really getting a chance to play it.
+This was a deck I had hoped to continue to learn from last season.  Unfortunately, the heavy aggro meta caused me to abandon this deck quite quickly without really getting a chance to play it.
 
 
 |       Deck        | Number of Games | Wins | Losses | Ties | Vs Druid | Vs Hunter | Vs Mage | Vs Paladin | Vs Priest | Vs Shaman | Vs Warlock | Vs Warrior |
@@ -32,7 +32,7 @@ This was a deck I had hoped to continue to learn from last season.  Unforunately
 ####Mid range
 
 Mid range hunter has always been a staple deck for me.  It provides a decent early game followed up by one of the best mid range power of any deck using Piloted Shredders, Sludge Beltchers, and Savanah Highmanes along side Freezing Traps to deter aggression.  
-This season I changed my old mid range deck to include some new cards like [Emperor Thaurissan](http://hearthstone.gamepedia.com/Emperor_Thaurissan) and an old but powerful card Ragnaros.  Unforunately, the deck was now to slow and failed in the meta, so switched back to my previous mid range deck for a few games.
+This season I changed my old mid range deck to include some new cards like [Emperor Thaurissan](http://hearthstone.gamepedia.com/Emperor_Thaurissan) and an old but powerful card Ragnaros.  Unfortunately, the deck was now to slow and failed in the meta, so switched back to my previous mid range deck for a few games.
 
 
 |      Deck      | Number of Games | Wins | Losses | Ties | Vs Druid | Vs Hunter | Vs Mage | Vs Paladin | Vs Priest | Vs Shaman | Vs Warlock | Vs Warrior |
@@ -62,7 +62,7 @@ My old stand by deck has not changed to much.  Still provides a consistant game 
 
 ####Aggro
 
-This deck was from the Chinese scene and is very aggro.  The essense of the deck is a lot of cheap spells combined with Flamewaker and Mana Wyrm to clear deal damage before the opponent can stabalize.  Unforunately this has the same issue as Face Hunter, it either works really well or fails hard.  In the end it was a fun deck, just did not seem to click well with its all or nothing style.
+This deck was from the Chinese scene and is very aggro.  The essence of the deck is a lot of cheap spells combined with Flamewaker and Mana Wyrm to clear deal damage before the opponent can stabilize.  Unfortunately this has the same issue as Face Hunter, it either works really well or fails hard.  In the end it was a fun deck, just did not seem to click well with its all or nothing style.
 
 
 |    Deck     | Number of Games | Wins | Losses | Ties | Vs Druid | Vs Hunter | Vs Mage | Vs Paladin | Vs Priest | Vs Shaman | Vs Warlock | Vs Warrior |
@@ -80,4 +80,4 @@ My new favorite deck.  With the addition of Flamewaker to the old tempo mage dec
 
 ##Next Season
 
-My goal for next season is to try and hit rank 5 or better.  As well as try to branch out to other classes like Druid or Paladin, but need to gather gold or dust to unlock class staples such as Ancient of Lore or Tyrion.
+My goal for next season is to try and hit rank 5 or better.  As well as try to branch out to other classes like Druid or Paladin, but need to gather gold or dust to unlock class staples such as Ancient of Lore or Tirion.
