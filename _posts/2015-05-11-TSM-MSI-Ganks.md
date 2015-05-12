@@ -1,5 +1,5 @@
 ---
-title: "Gank Timings of TSM"
+title: "2015 NA LCS Spring Split and Mid Season Invitational Gank Timings of TSM"
 output: html_document
 date: "2015-05-11"
 layout: post
