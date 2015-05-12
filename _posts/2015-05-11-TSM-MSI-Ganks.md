@@ -79,3 +79,10 @@ Again, TSM was ganked 15 times compared to Santorin ganking 6 times in the first
 #Conclusion
 
 Although this does not answer the question about the poor performance, it gives insight into just how different Santorin's ganks were compared to the Spring Split.  As well as the MSI teams adopting a focus Dyrus strategy compared to Bjergsen being the focus in the Spring Split may of thrown TSM and being a best of 1 format, adapting to a team style was not possible although all teams seemed to favor the focus Dyrus strategy.
+
+
+#Data
+
+Data can be found at link below:
+
+[Data](https://docs.google.com/spreadsheets/d/1Wwqp-V6qtK9SHhHiAS-gNLwUQja3TuQTbasoLltSXlE/edit?usp=sharing)
