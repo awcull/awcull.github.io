@@ -28,7 +28,7 @@ In 26 games, Santorin ganked a total of 34 times in the first 10 minutes.  Durin
 
 First taking a look at TSM gank times:
 
-<img src="/{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/spring gankWho-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/spring gankWho-1.png" style="display: block; margin: auto;" />
 
 {% highlight text %}
 ## 
@@ -44,7 +44,7 @@ Most ganks tend to favor Bjergsen but generally even among all lanes.
 
 Looking at how other teams focused their ganking attention is also important:
 
-<img src="/{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/spring gankedAgainst-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/spring gankedAgainst-1.png" style="display: block; margin: auto;" />
 
 {% highlight text %}
 ## 
@@ -62,7 +62,7 @@ Most ganks tend to be aimed at Bjergsen and Dyrus with less attention payed to t
 
 ##TSM
 
-<img src="/{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/msi gankWho-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/msi gankWho-1.png" style="display: block; margin: auto;" />
 
 {% highlight text %}
 ## 
@@ -76,7 +76,7 @@ This is a drastic difference from the 2015 NA LCS Spring Split.  Most attention 
 
 Taking a look at other teams, shows a drastic difference:
 
-<img src="/{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/msi gankAgainst-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/msi gankAgainst-1.png" style="display: block; margin: auto;" />
 
 {% highlight text %}
 ## 
