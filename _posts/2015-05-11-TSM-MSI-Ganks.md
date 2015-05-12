@@ -48,7 +48,7 @@ Looking at how other teams focused their ganking attention is also important:
 |--------:|-----:|---:|-------------:|--------------:|----------:|
 |       19|    14|  11|             1|              1|          1|
 
-Most ganks tend to be aimed at Bjergsen and Dyrus with less attention payed to the duo of Wildturtle and Lustboy.  TSM was under more pressure in the first 10 minutes with the opposing jungler attemping 47 ganks to Santorin's 34.
+Most ganks tend to be aimed at Bjergsen and Dyrus with less attention paid to the duo of Wildturtle and Lustboy.  TSM was under more pressure in the first 10 minutes with the opposing jungler attemping 47 ganks to Santorin's 34.
 
 #2015 Mid Season Invitational
 
@@ -79,6 +79,8 @@ Again, TSM was ganked 15 times compared to Santorin ganking 6 times in the first
 #Conclusion
 
 Although this does not answer the question about the poor performance, it gives insight into just how different Santorin's ganks were compared to the Spring Split.  As well as the MSI teams adopting a focus Dyrus strategy compared to Bjergsen being the focus in the Spring Split may of thrown TSM and being a best of 1 format, adapting to a team style was not possible although all teams seemed to favor the focus Dyrus strategy.
+
+The data collected was limited.  Vision was not taken into account or was it a successful gank granting a kill or burnt summoner.  This would need to be collected to move towards a more solid conclusion.
 
 
 #Data
