@@ -28,31 +28,25 @@ In 26 games, Santorin ganked a total of 34 times in the first 10 minutes.  Durin
 
 First taking a look at TSM gank times:
 
-<img src="{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/spring gankWho-1.png" style="display: block; margin: auto;" />
+<img src="{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/spring gankWho-1.png" title="" alt="" style="display: block; margin: auto;" />
 
-{% highlight text %}
-## 
-##      Duo Bjergsen    Dyrus   Jungle 
-##       14       10        9        1
-{% endhighlight %}
+| Duo| Bjergsen| Dyrus| Jungle|
+|---:|--------:|-----:|------:|
+|  14|       10|     9|      1|
 
 The reason for the first ~3 minutes and between 7:20-9 minutes is low is due to Red/Blue buff re/spawn times.
 
-Most ganks tend to favor Bjergsen but generally even among all lanes.
+Most ganks tend to favor the Duo lane of Wildturtle and Lustboy but generally even among all lanes.
 
 ##TSM vs Others
 
 Looking at how other teams focused their ganking attention is also important:
 
-<img src="{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/spring gankedAgainst-1.png" style="display: block; margin: auto;" />
+<img src="{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/spring gankedAgainst-1.png" title="" alt="" style="display: block; margin: auto;" />
 
-{% highlight text %}
-## 
-##       Bjergsen          Dyrus            Duo  Dyrus/Lustboy Dyrus/Santorin 
-##             19             14             11              1              1 
-##     Wildturtle 
-##              1
-{% endhighlight %}
+| Bjergsen| Dyrus| Duo| Dyrus/Lustboy| Dyrus/Santorin| Wildturtle|
+|--------:|-----:|---:|-------------:|--------------:|----------:|
+|       19|    14|  11|             1|              1|          1|
 
 Most ganks tend to be aimed at Bjergsen and Dyrus with less attention payed to the duo of Wildturtle and Lustboy.  TSM was under more pressure in the first 10 minutes with the opposing jungler attemping 47 ganks to Santorin's 34.
 
@@ -62,29 +56,25 @@ Most ganks tend to be aimed at Bjergsen and Dyrus with less attention payed to t
 
 ##TSM
 
-<img src="{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/msi gankWho-1.png" style="display: block; margin: auto;" />
+<img src="{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/msi gankWho-1.png" title="" alt="" style="display: block; margin: auto;" />
 
-{% highlight text %}
-## 
-##      Duo Bjergsen 
-##        5        1
-{% endhighlight %}
+| Duo| Bjergsen|
+|---:|--------:|
+|   5|        1|
 
-This is a drastic difference from the 2015 NA LCS Spring Split.  Most attention payed to the duo lanes compared to the NA LCS Spring Split where Bjergsen and Dyrus had more attention.
+This still follows the same trend of favouring the duo lane.  Granted it was only 5 games but almost no focus given to mid and there was no help for Dyrus.
 
 ##TSM vs Others
 
 Taking a look at other teams, shows a drastic difference:
 
-<img src="{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/msi gankAgainst-1.png" style="display: block; margin: auto;" />
+<img src="{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/msi gankAgainst-1.png" title="" alt="" style="display: block; margin: auto;" />
 
-{% highlight text %}
-## 
-##      Dyrus   Bjergsen        Duo Wildturtle 
-##          8          4          2          1
-{% endhighlight %}
+| Dyrus| Bjergsen| Duo| Wildturtle|
+|-----:|--------:|---:|----------:|
+|     8|        4|   2|          1|
 
-Again, TSM was ganked 15 times compared to Santorin ganking 6 times in the first 10 minutes of the game.  There was 2x more pressure put onto Dyrus compared to Bjergsen.
+Again, TSM was ganked 15 times compared to Santorin ganking 6 times in the first 10 minutes of the game.  As well there was 2x more pressure put onto Dyrus compared to Bjergsen.
 
 #Conclusion
 
