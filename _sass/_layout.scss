@@ -273,3 +273,12 @@
     width:         calc(50% - (#{$spacing-unit} / 2));
 	text-align: right;
 }
+
+/**
+* Images
+*/
+.centerIMG {
+  display: block;
+  margin: auto;
+  float: center;
+}
