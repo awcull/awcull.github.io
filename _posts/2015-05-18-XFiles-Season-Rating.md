@@ -3,7 +3,7 @@ title: "X Files Season Ratings using R"
 output: html_document
 date: "2015-05-18"
 layout: post
-categories: 
+categories:
 - TV
 - X Files
 - R
