@@ -205,7 +205,7 @@ kable(xf.df)
 |  34|8      |8       |Surekill                            |07 Jan 2001 |7.2  |
 |  35|9      |1       |Nothing Important Happened Today    |11 Nov 2001 |7.7  |
 |  36|9      |2       |Nothing Important Happened Today II |18 Nov 2001 |7.7  |
-|  37|9      |3       |Dæmonicus                           |02 Dec 2001 |7.5  |
+|  37|9      |3       |Damonicus                           |02 Dec 2001 |7.5  |
 |  38|9      |4       |4-D                                 |09 Dec 2001 |8.0  |
 |  39|9      |5       |Lord of the Flies                   |16 Dec 2001 |7.0  |
 |  40|9      |6       |Trust No 1                          |06 Jan 2002 |7.8  |
