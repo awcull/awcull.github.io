@@ -10,7 +10,7 @@ categories: R, Television, TV, IMDB, The Wire
 
 ##Introduction
 
-This is a follow up to a previous post about [graphing X Files episodes ratings](http://www.awcull.com/2015-05-18-XFiles-Season-Rating.html).  In this post, I will generalize the method and clean up the code to subset the IMDB ratings data to almost any show in the IMDB ratings file.  The ratings file can be found at [IMDB Interfaces](http://www.imdb.com/interfaces).
+This is a follow up to a previous post about [graphing X Files episodes ratings](http://awcull.com/2015/05/18/XFiles-Season-Rating.html).  In this post, I will generalize the method and clean up the code to subset the IMDB ratings data to almost any show in the IMDB ratings file.  The ratings file can be found at [IMDB Interfaces](http://www.imdb.com/interfaces).
 
 ##Data
 
