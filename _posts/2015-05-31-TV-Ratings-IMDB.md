@@ -154,14 +154,14 @@ library(ggplot2)
 ggplot(show.data, aes(x=1:nrow(show.data), y=Rate, colour=factor(Season.Num), group=Season.Num)) + geom_line(size=1) + geom_point(size=4, shape=21, fill="white") + xlab("") + scale_colour_brewer(palette="Paired") + ggtitle("Ratings of The Wire")
 {% endhighlight %}
 
-![]({{ site.url }}/assets/2015-05-31-TV-Ratings-IMDB/graphs-1.png) 
+![]({{ site.url }}/assets/2015-05-31-TV-Ratings-IMDB/graphs-1.png){: .centerIMG} 
 
 {% highlight r %}
 # Generate bar graph
 ggplot(show.data, aes(x=Season.Num, y = Rate, colour=factor(Season.Num), group=Season.Num)) + geom_boxplot(fill=NA) + geom_point() + xlab("") + scale_colour_brewer(palette="Paired") + ggtitle("Ratings of The Wire by season")
 {% endhighlight %}
 
-![]({{ site.url }}/assets/2015-05-31-TV-Ratings-IMDB/graphs-2.png) 
+![]({{ site.url }}/assets/2015-05-31-TV-Ratings-IMDB/graphs-2.png){: .centerIMG} 
 
 ###Conclusion
 
