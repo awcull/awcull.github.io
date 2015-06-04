@@ -10,7 +10,7 @@ categories:
 ---
 
 
-[X Files](http://www.imdb.com/title/tt0106179/) was a favorite TV show of mine as a kid and with the revival coming in 2016, I wanted to take a look at each episode IMDB ratings.  Using the [OMDb API](http://www.omdbapi.com/), we can query each episode in JSON format and extract the needed information.  In the end, OMDb will not provide the proper information and will read in poorly formatted data provided by the source, IMDB, to show the final information.  This post will take a look at how to do this using R and packages rjson and ggplot2.  
+[X Files](http://www.imdb.com/title/tt0106179/) was a favourite TV show of mine as a kid and with the revival coming in 2016, I wanted to take a look at each episodes IMDB ratings.  Using the [OMDb API](http://www.omdbapi.com/), we can query each episode in JSON format and extract the needed information.  In the end, OMDb will not provide the proper information and will read in poorly formatted data provided by the source, IMDB, to show the final information.  This post will take a look at how to do this using R and packages rjson and ggplot2.  Eventually we will be forced to abandon the API and download the data from the source (which is a better idea in the first place).   
 
 #Parsing JSON with R
 
