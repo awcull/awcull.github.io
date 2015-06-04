@@ -59,7 +59,7 @@ showName <- "The Wire"
 show.data <- get.IMDB.data(fp, showName)
 {% endhighlight %}
 
-Unforunately with this implementation, the show title must be a very close match.  Cases are ignored but a show like Star Trek: The Next Generation will not be found if the ':' is missing from Trek.  Although there is an error catch, searching should be improved in a future version.
+Unfortunately with this implementation, the show title must be a very close match.  Cases are ignored but a show like Star Trek: The Next Generation will not be found if the ':' is missing from Trek.  Although there is an error catch, searching should be improved in a future version.
 
 ##Checking the data
 
