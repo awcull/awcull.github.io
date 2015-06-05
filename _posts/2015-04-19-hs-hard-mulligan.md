@@ -2,7 +2,7 @@
 layout: post
 title:  "Probability of Mulliganing for a Card in Hearthstone"
 date:   2015-04-19 22:17:23
-categories: hearthstone
+categories: [Hearthstone, R, Math, Probability]
 ---
 
 # Introduction

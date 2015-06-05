@@ -3,7 +3,7 @@ title: "2015 NA LCS Spring Split and Mid Season Invitational Gank Timings of TSM
 output: html_document
 date: "2015-05-11"
 layout: post
-categories: League of Legends
+categories: [League of Legends, R]
 ---
 
 

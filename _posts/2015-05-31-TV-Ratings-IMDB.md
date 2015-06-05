@@ -3,7 +3,7 @@ title: "TV Ratings From IMDB"
 output: html_document
 layout: post
 date: "2015-05-31"
-categories: R, Television, TV, IMDB, The Wire
+categories: [R, Television, TV, IMDB, The Wire]
 ---
 
 
