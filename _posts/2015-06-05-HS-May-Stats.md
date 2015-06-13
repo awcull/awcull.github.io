@@ -6,21 +6,7 @@ layout: post
 categories: [Hearthstone, R]
 ---
 
-
-
-
-
-
-
-
-
-
-
-
 ##Quick Facts
-
-
-
 
 | Number of Games | Final Rank | Wins | Losses | Ties | Win % |
 |:---------------:|:----------:|:----:|:------:|:----:|:-----:|
@@ -34,6 +20,8 @@ Season 14 was a bit of an up and down.  I did not achieve the goal of reaching r
 
 Overall, it was a good learning experience in modifying decks (Tempo Mage) and very much trying to figure out how to play Rogue.
 
+<br><br>
+
 ###Warlock
 
 ####Mid Aggro
@@ -43,18 +31,23 @@ Feels like a powerful deck so far, the draw engine that is Warlock hero ability 
 
 |     Deck     | Num of Games | Wins | Losses | Ties | Win % | Vs Druid | Vs Hunter | Vs Mage | Vs Paladin | Vs Priest | Vs Rogue | Vs Shaman | Vs Warlock | Vs Warrior |
 |:------------:|:------------:|:----:|:------:|:----:|:-----:|:--------:|:---------:|:-------:|:----------:|:---------:|:--------:|:---------:|:----------:|:----------:|
-| Warlock: Mid |      13      |  10  |   3    |  0   | 76.92 |  0-0-0   |   2-0-0   |  2-0-0  |   0-0-0    |   0-0-0   |  0-0-0   |   0-0-0   |   2-1-0    |   4-2-0    |
+| [Warlock: Mid]({{ site.url }}/assets/hs-decks/2015-05-11-warlockMid.png) |      13      |  10  |   3    |  0   | 76.92 |  0-0-0   |   2-0-0   |  2-0-0  |   0-0-0    |   0-0-0   |  0-0-0   |   0-0-0   |   2-1-0    |   4-2-0    |
+
+<br><br>
 
 ###Hunter
 
 ####Mid range
+
 
 Mid range hunter still doing its job, with a 6-1 record.  Although it was not played as much in favor of Mage, it still seems to be a strong deck with a very powerful mid game component.
 
 
 |      Deck      | Num of Games | Wins | Losses | Ties | Win % | Vs Druid | Vs Hunter | Vs Mage | Vs Paladin | Vs Priest | Vs Rogue | Vs Shaman | Vs Warlock | Vs Warrior |
 |:--------------:|:------------:|:----:|:------:|:----:|:-----:|:--------:|:---------:|:-------:|:----------:|:---------:|:--------:|:---------:|:----------:|:----------:|
-| Hunter: Mid v2 |      7       |  6   |   1    |  0   | 85.71 |  0-0-0   |   0-0-0   |  1-0-0  |   1-0-0    |   0-0-0   |  1-0-0   |   1-1-0   |   1-0-0    |   1-0-0    |
+| [Hunter: Mid v2]({{ site.url }}/assets/hs-decks/2015-04-21-midHunterV2.png) |      7       |  6   |   1    |  0   | 85.71 |  0-0-0   |   0-0-0   |  1-0-0  |   1-0-0    |   0-0-0   |  1-0-0   |   1-1-0   |   1-0-0    |   1-0-0    |
+
+<br><br>
 
 ###Mage
 
@@ -65,7 +58,7 @@ Mech mage has somewhat fallen out of favor recently.  It has suffered from runni
 
 |     Deck      | Num of Games | Wins | Losses | Ties | Win % | Vs Druid | Vs Hunter | Vs Mage | Vs Paladin | Vs Priest | Vs Rogue | Vs Shaman | Vs Warlock | Vs Warrior |
 |:-------------:|:------------:|:----:|:------:|:----:|:-----:|:--------:|:---------:|:-------:|:----------:|:---------:|:--------:|:---------:|:----------:|:----------:|
-| Mage: Mech v5 |      51      |  28  |   23   |  0   | 54.9  |  1-2-0   |   3-3-0   | 11-4-0  |   5-3-0    |   2-4-0   |  2-1-0   |   1-2-0   |   2-3-0    |   1-1-0    |
+| [Mage: Mech v5]({{ site.url }}/assets/hs-decks/2015-04-01-mechMagev5.png) |      51      |  28  |   23   |  0   | 54.9  |  1-2-0   |   3-3-0   | 11-4-0  |   5-3-0    |   2-4-0   |  2-1-0   |   1-2-0   |   2-3-0    |   1-1-0    |
 
 ####Tempo
 
@@ -76,8 +69,10 @@ A new version of this deck has popped up recently mixing Mech and Tempo mage tog
 
 |      Deck      | Num of Games | Wins | Losses | Ties | Win % | Vs Druid | Vs Hunter | Vs Mage | Vs Paladin | Vs Priest | Vs Rogue | Vs Shaman | Vs Warlock | Vs Warrior |
 |:--------------:|:------------:|:----:|:------:|:----:|:-----:|:--------:|:---------:|:-------:|:----------:|:---------:|:--------:|:---------:|:----------:|:----------:|
-|  Mage: Tempo   |      17      |  9   |   8    |  0   | 52.94 |  0-1-0   |   1-0-0   |  1-1-0  |   2-1-0    |   1-0-0   |  2-0-0   |   0-1-0   |   0-2-0    |   2-2-0    |
-| Mage: Tempo v2 |      17      |  11  |   6    |  0   | 64.71 |  4-0-0   |   0-3-0   |  2-2-0  |   0-0-0    |   0-0-0   |  0-0-0   |   2-0-0   |   3-0-0    |   0-1-0    |
+|  [Mage: Tempo]({{ site.url }}/assets/hs-decks/2015-04-24-tempMage.png)   |      17      |  9   |   8    |  0   | 52.94 |  0-1-0   |   1-0-0   |  1-1-0  |   2-1-0    |   1-0-0   |  2-0-0   |   0-1-0   |   0-2-0    |   2-2-0    |
+| [Mage: Tempo v2]({{ site.url }}/assets/hs-decks/2015-05-15-tempoMageV2.png) |      17      |  11  |   6    |  0   | 64.71 |  4-0-0   |   0-3-0   |  2-2-0  |   0-0-0    |   0-0-0   |  0-0-0   |   2-0-0   |   3-0-0    |   0-1-0    |
+
+<br><br>
 
 ###Rogue
 
@@ -89,6 +84,8 @@ Although I'm not sure if Rogue just has fallen so far out of favor recently whic
 |    Deck    | Num of Games | Wins | Losses | Ties | Win % | Vs Druid | Vs Hunter | Vs Mage | Vs Paladin | Vs Priest | Vs Rogue | Vs Shaman | Vs Warlock | Vs Warrior |
 |:----------:|:------------:|:----:|:------:|:----:|:-----:|:--------:|:---------:|:-------:|:----------:|:---------:|:--------:|:---------:|:----------:|:----------:|
 | Rogue: Oil |      15      |  5   |   10   |  0   | 33.33 |  0-0-0   |   1-3-0   |  1-3-0  |   0-0-0    |   0-0-0   |  1-2-0   |   0-0-0   |   1-2-0    |   1-0-0    |
+
+<br><br>
 
 ##Next Season
 
