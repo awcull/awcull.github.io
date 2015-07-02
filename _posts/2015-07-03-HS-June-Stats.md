@@ -23,7 +23,7 @@ This season I spent more time at the rank 8 range, which means playing against b
 
 This season I also was able to craft [Alexstrasza](http://hearthstone.gamepedia.com/Alexstrasza), opening up more deck options for the future as well as being able to play freeze mage this season.
 
-<br></br>
+<br><br>
 
 ###Warlock
 
@@ -46,7 +46,7 @@ Although this deck should still work, it is not the type of deck I'm use to play
 |:-----------------:|:-------:|:-:|:-:|:-:|:-----:|:--------:|:---------:|:-------:|:----------:|:---------:|:--------:|:---------:|:----------:|:----------:|
 | [Warlock: Handlock]({{ site.url }}/assets/2015-06-12-handlock.png) |   16    | 8 | 8 | 0 |  50   |  1-2-0   |   1-4-0   |  0-1-0  |   0-1-0    |   1-0-0   |  0-0-0   |   0-0-0   |   3-0-0    |   2-0-0    |
 
-<br></br>
+<br><br>
 
 ###Hunter
 
@@ -59,7 +59,7 @@ Mid range hunter still performing well with no real bad match ups, it still one 
 |:--------------:|:-------:|:--:|:-:|:-:|:-----:|:--------:|:---------:|:-------:|:----------:|:---------:|:--------:|:---------:|:----------:|:----------:|
 | [Hunter: Mid v2]({{ site.url }}/assets/2015-04-21-midHunterV2.png) |   17    | 11 | 6 | 0 | 64.71 |  0-0-0   |   2-1-0   |  4-1-0  |   0-1-0    |   2-0-0   |  0-1-0   |   0-1-0   |   3-1-0    |   0-0-0    |
 
-<br></br>
+<br><br>
 
 ###Mage
 
@@ -83,7 +83,7 @@ Tempo mage is back in a new form using some mechs to add spare parts and provide
 |:--------------:|:-------:|:-:|:-:|:-:|:-----:|:--------:|:---------:|:-------:|:----------:|:---------:|:--------:|:---------:|:----------:|:----------:|
 | [Mage: Tempo v3]({{ site.url }}/assets/2015-06-30-tempoMagev3.png) |    8    | 4 | 4 | 0 |  50   |  0-1-0   |   0-0-0   |  0-2-0  |   0-0-0    |   0-0-0   |  1-0-0   |   0-0-0   |   2-0-0    |   1-1-0    |
 
-<br></br>
+<br><br>
 
 ##Next Season
 
