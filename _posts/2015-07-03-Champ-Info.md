@@ -1,5 +1,5 @@
 ---
-title: "2013-2015 NA/EU LCS Player Champion Information"
+title: "2013-2015 Win-Loss NA/EU LCS Player Champion Information"
 output: html_document
 date: "2015-07-03"
 layout: post
