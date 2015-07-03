@@ -64,6 +64,7 @@ kable(data.frame(NumChamps=sort(table(data.col$player), decreasing=T)[1:10]), al
 |Kerp        |    32     |
 |Dyrus       |    29     |
 |KiWiKiD     |    29     |
+
 <br></br>
 From this, it is not to surprising with Mid-Laners taking the top spot as it has had the most changes to its meta-game.  Changes from support based or assassin champions and having a large pool of potentional champions to choose from.  The other is top lane but this has the same meta-game shifts and large champion pools.
 
@@ -89,6 +90,7 @@ kable(data.col.wl[1:10,], align='c')
 |2877 | WildTurtle  |    Sivir     |  15  |  1   |    16    |
 |696  |    Dyrus    |   Renekton   |  21  |  8   |    29    |
 |1073 |   Hjarnan   |    Sivir     |  16  |  3   |    19    |
+
 <br></br>
 The last thing I wanted to look at is who still has undefeated champions:
 
@@ -113,6 +115,7 @@ kable(data.col.noloss[1:10,], align='c')
 |2542 |     SOAZ     | Lee Sin  |  6   |  0   |    6     |
 |2616 |  Svenskeren  | Pantheon |  6   |  0   |    6     |
 |3046 |  YellOwStaR  |  Karma   |  6   |  0   |    6     |
+
 <br></br>
 Again, champions like Zyra support and Nasus jungle have fallen out of favor.
 
