@@ -37,7 +37,7 @@ The first thing is to get what teams played during the week, to do this we can h
 
 This gives the path selection as _tr+ tr th:nth-child(4), tr+ tr th:nth-child(1)_ to be used with html_nodes.
 
-![]({{ site.url }}/assets/2015-07-09-Rvest-and-SelectorGadget/getTeams.png)
+![]({{ site.url }}/assets/2015-07-11-Rvest-and-SelectorGadget/getTeams.png){: .centerIMG}
 
 {% highlight r %}
   tr <- html_text(html_nodes(pagetree, "tr+ tr th:nth-child(4), tr+ tr th:nth-child(1)"))
@@ -66,7 +66,7 @@ getTeams <- function(pagetree) {
 
 This requires more work.  The easiest way to do this was to grab the table and using the design of the 1st and 2nd value being champion followed by player name.  Originally, we get the table and then extract the data into lists.  This is because the number of items bought per game is unknown as well as the trinkets was only introduced in the 2014 season.
 
-![]({{ site.url }}/assets/2015-07-09-Rvest-and-SelectorGadget/getChampName.png)
+![]({{ site.url }}/assets/2015-07-11-Rvest-and-SelectorGadget/getChampName.png){: .centerIMG}
 
 {% highlight r %}
 nodes <- html_nodes(pagetree, "table:nth-child(2) tr")
@@ -169,7 +169,7 @@ head(getPlayerChamp(pagetree))
 
 To get win/loss, the path _tr+ tr th:nth-child(3) , tr+ tr th:nth-child(2)_ was used.  Again to follow how the data is to be set up, this is repeated 5 times.
 
-![]({{ site.url }}/assets/2015-07-09-Rvest-and-SelectorGadget/getWinLoss.png)
+![]({{ site.url }}/assets/2015-07-11-Rvest-and-SelectorGadget/getWinLoss.png){: .centerIMG}
 
 {% highlight r %}
 getWinLoss <- function(pagetree) {
@@ -190,7 +190,7 @@ head(getWinLoss(pagetree))
 
 To get the date, the path _.match-recap tr:nth-child(1) td_ was used.  Each value is from this line is found, so the Date: line must be found and replaced.
 
-![]({{ site.url }}/assets/2015-07-09-Rvest-and-Selectorgadget/getDate.png)
+![]({{ site.url }}/assets/2015-07-11-Rvest-and-SelectorGadget/getDate.png){: .centerIMG}
 
 {% highlight r %}
 getDate <- function(pagetree) {
