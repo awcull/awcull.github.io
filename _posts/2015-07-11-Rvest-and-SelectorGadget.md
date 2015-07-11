@@ -12,7 +12,7 @@ I recently discovered [rvest](http://cran.r-project.org/web/packages/rvest/index
 
 The goal is to scrape the win/loss information for each player's champion selection from the 2013-2015 NA/EU LCS season.  To do this SelectorGadget can be used to get the required information to feed into rvest and get the highlighted information.
 
-#####Import Site
+####Import Site
 
 To do this, _readLines_ and _HTMLTreeParse_ was used to import the site.
 
@@ -31,13 +31,13 @@ getWebsite <- function(webpage) {
 pagetree <- getWebsite(website)
 {% endhighlight %}
 
-#####Teams
+####Teams
 
 The first thing is to get what teams played during the week, to do this we can highlight the selected regions of interest and deselect regions that are of no interest. 
 
 This gives the path selection as _tr+ tr th:nth-child(4), tr+ tr th:nth-child(1)_ to be used with html_nodes.
 
-![]({{ site.url }}/assets/2015-07-09-rvest-and-selectorgadget/getTeams.png)
+![]({{ site.url }}/assets/2015-07-09-Rvest-and-SelectorGadget/getTeams.png)
 
 {% highlight r %}
   tr <- html_text(html_nodes(pagetree, "tr+ tr th:nth-child(4), tr+ tr th:nth-child(1)"))
@@ -62,11 +62,11 @@ getTeams <- function(pagetree) {
 }
 {% endhighlight %}
 
-#####Player and Champion
+####Player and Champion
 
 This requires more work.  The easiest way to do this was to grab the table and using the design of the 1st and 2nd value being champion followed by player name.  Originally, we get the table and then extract the data into lists.  This is because the number of items bought per game is unknown as well as the trinkets was only introduced in the 2014 season.
 
-![]({{ site.url }}/assets/2015-07-09-rvest-and-selectorgadget/getChampName.png)
+![]({{ site.url }}/assets/2015-07-09-Rvest-and-SelectorGadget/getChampName.png)
 
 {% highlight r %}
 nodes <- html_nodes(pagetree, "table:nth-child(2) tr")
@@ -169,7 +169,7 @@ head(getPlayerChamp(pagetree))
 
 To get win/loss, the path _tr+ tr th:nth-child(3) , tr+ tr th:nth-child(2)_ was used.  Again to follow how the data is to be set up, this is repeated 5 times.
 
-![]({{ site.url }}/assets/2015-07-09-rvest-and-selectorgadget/getgetWinLoss.png)
+![]({{ site.url }}/assets/2015-07-09-Rvest-and-SelectorGadget/getWinLoss.png)
 
 {% highlight r %}
 getWinLoss <- function(pagetree) {
@@ -186,11 +186,11 @@ head(getWinLoss(pagetree))
 ## [1] 1 1 1 1 1 0
 {% endhighlight %}
 
-#####Date
+####Date
 
 To get the date, the path _.match-recap tr:nth-child(1) td_ was used.  Each value is from this line is found, so the Date: line must be found and replaced.
 
-![]({{ site.url }}/assets/2015-07-09-rvest-and-selectorgadget/getDate.png)
+![]({{ site.url }}/assets/2015-07-09-Rvest-and-Selectorgadget/getDate.png)
 
 {% highlight r %}
 getDate <- function(pagetree) {
@@ -210,7 +210,7 @@ head(getDate(pagetree))
 ## [1] "5/30/2015" "5/30/2015" "5/30/2015" "5/30/2015" "5/30/2015" "5/30/2015"
 {% endhighlight %}
 
-#####Putting it together
+####Putting it together
 
 In order to put this together, the above functions are called and checked to make sure that data is of the same length to combine it to a data frame.  
 
@@ -321,6 +321,6 @@ kable(head(NA.2015.spring), row.names=F, align='c')
 |   Balls    |  Gnar   |    Cloud9    | 0  | 2015-01-24 |
 
 
-#####Conclusion
+###Conclusion
 
 Using this, it can be combined to form a final data format and looped over to gather all the data.  There are a few things not shown here, such as standardizing the dates, checking for misspelled player names (Dyrus/Dryus), players not updated (SELFIE NO PAGE FOUND, SELFIE), and fixing bo3/5 series where wins are not 0 or 1 but can be 0-5.
