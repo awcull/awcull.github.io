@@ -1,5 +1,5 @@
 ---
-title: "Snakes and Ladders Moves with R doParallel"
+title: "Snakes and Ladders with R doParallel"
 date: "2015-07-16"
 layout: post
 categories: [R]
