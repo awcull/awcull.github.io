@@ -10,7 +10,7 @@ categories:
 ---
 
 
-[X Files](http://www.imdb.com/title/tt0106179/) was a favourite TV show of mine as a kid and with the revival coming in 2016, I wanted to take a look at each episodes IMDB ratings.  Using the [OMDb API](http://www.omdbapi.com/), we can query each episode in JSON format and extract the needed information.  In the end, OMDb will not provide the proper information and will read in poorly formatted data provided by the source, IMDB, to show the final information.  This post will take a look at how to do this using R and packages rjson and ggplot2.  Eventually we will be forced to abandon the API and download the data from the source (which is a better idea in the first place).   
+[X Files](http://www.imdb.com/title/tt0106179/) was a favorite TV show of mine as a kid and with the revival coming in 2016, I wanted to take a look at each episode IMDB ratings.  Using the [OMDb API](http://www.omdbapi.com/), we can query each episode in JSON format and extract the needed information.  This post will take a look at how to do this using R and packages rjson and ggplot2.
 
 #Parsing JSON with R
 
@@ -168,7 +168,7 @@ kable(xf.df)
 
 
 | num|season |episode |title                               |release     |rate |
-|:---:|:------:|:-------:|:-----------------------------------:|:-----------:|:----:|
+|---:|:------|:-------|:-----------------------------------|:-----------|:----|
 |   1|1      |1       |Deep Throat                         |17 Sep 1993 |8.3  |
 |   2|1      |2       |Squeeze                             |24 Sep 1993 |8.7  |
 |   3|1      |3       |Conduit                             |01 Oct 1993 |7.7  |
@@ -254,25 +254,29 @@ head(imdb.xf)
 ## [6] "      0000012211    1067   7.6  \"The X Files\" (1993) {All Souls (#5.17)}"
 {% endhighlight %}
 
-
+Now we need to extract information, we dont care for anything but rating, episode name, season, and episode number:
 
 {% highlight r %}
-## Now we need to extract information, we dont care for anything but rating, episode name, season, and episode number
 # Remove leading white space and replace all white space by a single space
 # sub replaces first occurance, gsub replaces all occurances
 imdb.xf <- gsub("\\s+", " ", sub("^\\s+", "", imdb.xf))
 imdb.xf <- gsub("\\)", "",gsub("\\(", "", imdb.xf)) # Remove () which makes later on easier
+
 # Now want to get data into data frame
 imdb.xf.df <- data.frame(rating=rep(NA, length(imdb.xf)), season=NA, episode=NA, title=NA, stringsAsFactors=F)
 imdb.xf.df$rating <- as.numeric(sapply(strsplit(imdb.xf, " ", perl=T), "[[", 3)) # Get ratings, easy
+
 # Get epi info
 epi.info <- substr(imdb.xf, unlist(gregexpr(pattern="\\{", imdb.xf, perl=T))+1, unlist(gregexpr(pattern="\\}", imdb.xf, perl=T))-1)
+
 # title and season/episode
 imdb.xf.df$title <- substr(epi.info, 1, unlist(gregexpr(pattern="\\#", epi.info, perl=T))-2) # easy, break off of #
+
 # Get season/epi
 s.e.info <- substr(epi.info, unlist(gregexpr(pattern="\\#", epi.info, perl=T))+1, nchar(epi.info))
 imdb.xf.df$season <- substr(s.e.info, 1,unlist(gregexpr(pattern="\\.", s.e.info, perl=T))-1)
 imdb.xf.df$episode <- as.numeric(substr(s.e.info, unlist(gregexpr(pattern="\\.", s.e.info, perl=T))+1, nchar(s.e.info)))
+
 # order info
 imdb.xf.df <- imdb.xf.df[order(imdb.xf.df$season, imdb.xf.df$episode),]
 imdb.xf.df$id <- 1:nrow(imdb.xf.df)
