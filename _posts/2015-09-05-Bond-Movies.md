@@ -278,9 +278,11 @@ Plotting the data using ggplot2 package:
 
 
 {% highlight r %}
-ggplot(bondTable, aes(x=Year, y=IMDB.Rating, color=Bond.actor, size=Box.office.1)) + geom_point() + 
+ggplot(bondTable, aes(x=Year, y=IMDB.Rating, color=Bond.actor, size=Box.office.1, label=Title)) + 
+  geom_point() + geom_text(size=5, angle=-90, vjust=0.5, hjust=-0.09) +
   guides(color=guide_legend(title="Actor"), size=guide_legend(title="Box Office\nAdjusted for Inflation\n($USD)")) + 
   scale_x_continuous(limits=c(min(bondTable$Year),max(bondTable$Year)), breaks=bondTable$Year) + 
+  scale_y_continuous(limits=c(0, 10), breaks=c(0,seq(5,10,0.5))) +
   theme(axis.text.x=element_text(angle=90,hjust=1,vjust=0.5,size=10)) +
   scale_colour_brewer(palette="Paired") +
   ylab("IMDB Rating") + ggtitle("IMDB Rating vs Year of James Bond Movies")
