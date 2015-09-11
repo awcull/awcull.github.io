@@ -16,7 +16,7 @@ In deck creation there are 30 cards in a deck containing combinations of common,
 
 ## Results
 
-The code used for the simulation can be found on my GitHub here.
+The code used for the simulation can be found on my GitHub [here](https://github.com/awcull/hs_packs).
 
 Read the data in and create one data frame:
 
