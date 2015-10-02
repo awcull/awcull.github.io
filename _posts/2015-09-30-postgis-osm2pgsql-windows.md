@@ -1,5 +1,5 @@
 ---
-title: "PostGIS and osm2pgsql in Windows"
+title: "PostGIS and osm2pgsql on Windows"
 date: "2015-09-30"
 layout: post
 categories: [postgis, osm]
