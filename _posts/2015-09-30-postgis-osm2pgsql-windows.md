@@ -14,9 +14,11 @@ The first and most important part is to download Postgresql, which can be found 
 
 Opening up pgAdmin III, a new database can be created with a specific name and owner.  The next step is to set up the database to accept the spatial data.  To do this, highlight your created database and near the top of the screen there should be a SQL button, click this and execute the command below:
 
-```{}
+```
 CREATE EXTENSION postgis
 ```
+
+An output of: *Query returned successfully with no result in 1480 ms.* should be returned.
 
 ## osm2pgsql
 
@@ -30,7 +32,7 @@ With these two files, the [osm2pgsql guide](http://wiki.openstreetmap.org/wiki/O
 
 After osm2pgsql environment variable path is set up, a command like below can be used to read in data:
 
-```{}
+```
 osm2pgsql C:\osm\winnipeg_canada.osm.pbf -l -c -d gis -U postgres -H localhost -S C:\default.style
 ```
 
