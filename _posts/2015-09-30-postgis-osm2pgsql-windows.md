@@ -1,5 +1,5 @@
 ---
-title: "PostGIS and osm2pgsql on Windows"
+title: "PostGIS and osm2pgsql using Windows"
 date: "2015-09-30"
 layout: post
 categories: [postgis, osm]
@@ -25,6 +25,10 @@ An output of: *Query returned successfully with no result in 1480 ms.* should be
 Unfortunately, the Open Street Map wiki has not been updated for awhile.  The Windows binary had been broken since the switch to 64 bit objects.  A working version of osm2pgsql can be found here provided by alex85k from the [osm2pgsql GitHub page](https://github.com/openstreetmap/osm2pgsql/issues/17):
 
 [osm2pgsql](https://dl.dropboxusercontent.com/u/63393258/osm2pgsql_testRelease.zip)
+
+The next part is to download the PROJ libraries needed to run the above code provided again by alex85.  If this is not extracted to C:\, then you will get an error *Projection code failed to initialise* when trying to import data to PostGIS using osm2pgsql.
+
+[PROJ libraries](https://dl.dropboxusercontent.com/u/63393258/PROJ.zip)
 
 The last piece needed is the default.style file which needs to be explicitly given to osm2pgsql under Windows.  This file can be found [here](https://raw.githubusercontent.com/openstreetmap/osm2pgsql/master/default.style).  I've saved it to C drive as it is easy to remember.
 
