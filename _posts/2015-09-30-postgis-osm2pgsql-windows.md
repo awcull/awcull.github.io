@@ -6,7 +6,7 @@ categories: [postgis, osm]
 output: html_document
 ---
 
-This is less of a how to but more of a reminder to myself where I downloaded files and certain setup information.
+This is less of a how to but more of a reminder to myself where I downloaded files and certain setup information.  The following has worked on 64 bit Windows 7 and 10.
 
 ## PostGIS
 
