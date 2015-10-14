@@ -43,7 +43,7 @@ The following will form the connection between R and the PostGIS database, 'gis'
 
 {% highlight r %}
 m <- dbDriver("PostgreSQL")
-con <- dbConnect(m, dbname="gis", password="test")
+con <- dbConnect(m, dbname="gis")
 {% endhighlight %}
 
 # Create Query
@@ -114,7 +114,7 @@ The same query can be made to obtain all traffic signal locations.
 
 
 {% highlight r %}
-con2 <- dbConnect(m, dbname="gisdb", password="test")
+con2 <- dbConnect(m, dbname="gisdb")
 q <- "SELECT 
       highway as Tag, 
       ST_Y(ST_Transform(way,4326)) AS lat, 
