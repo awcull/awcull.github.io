@@ -9,7 +9,7 @@ permalink: /resume/
 <br>
 **Experience**
 
-***[Bit Recursion Software Incorporated](https://play.google.com/store/apps/developer?id=Bit+Recursion+Software+Incorporated)***  
+***[Bit Recursion Software Incorporated](http://bitrecursion.com)***  
 Winnipeg, MB  
 November 2014 - Present  
 *Owner*
