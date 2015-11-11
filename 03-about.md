@@ -12,4 +12,5 @@ gathered GPS data.  As well in 2014, I started [Bit Recursion Software][bitrec] 
 
 Beyond work, I can be found biking, brewing beer/wine, or playing video games.
 
-[bitrec]:	https://play.google.com/store/apps/developer?id=Bit+Recursion+Software+Incorporated
+[bitrec]: http://bitrecursion.com
+[bitrec2]:	https://play.google.com/store/apps/developer?id=Bit+Recursion+Software+Incorporated
