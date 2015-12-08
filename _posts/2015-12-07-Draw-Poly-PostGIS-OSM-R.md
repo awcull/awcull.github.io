@@ -92,5 +92,5 @@ for (k in 1:length(uRegions)) {
 }
 {% endhighlight %}
 
-![]({{ site.url }}/assets/2015-12-07-Draw-Poly-PostGIS-OSM-R/makeplot-1.png) 
+![]({{ site.url }}/assets/2015-12-07-Draw-Poly-PostGIS-OSM-R/makeplot-1.png){: .centerIMG}  
 
