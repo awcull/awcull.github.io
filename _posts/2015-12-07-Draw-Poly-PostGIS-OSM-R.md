@@ -8,7 +8,7 @@ categories: [R, OSM, PostGIS]
 
 ## Introduction
 
-Working with maps, its nice to be able to display the map with additional information.  In a previous post, it showed how to get points, but unforunately the method does not properly export data drawing the regions.  This post will correct that and using R the regions will be plotted properly.
+Working with maps, its nice to be able to display the map with additional information.  In a [previous post](http://awcull.com/2015/10/13/Vis-Traffic-Signals-PostGIS-OSM-R.html), it showed how to get points, but unforunately the method does not properly export data drawing the regions.  This post will correct that and using R the regions will be plotted properly.
 
 ## PostGIS
 
