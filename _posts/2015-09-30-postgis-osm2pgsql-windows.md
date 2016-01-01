@@ -45,10 +45,14 @@ With these two files, the [osm2pgsql guide](http://wiki.openstreetmap.org/wiki/O
 After osm2pgsql environment variable path is set up, a command like below can be used to read in data:
 
 ```
-osm2pgsql C:\osm\winnipeg_canada.osm.pbf -l -c -d gis -U postgres -H localhost -S C:\default.style
+osm2pgsql -S C:\default.style -l -c -d gis -U postgres -H localhost C:\osm\winnipeg_canada.osm.pbf
 ```
 
+I've had issues (*Couldn't open style file 'D:/maps/default.style': Permission denied*) if the style file (-S) location was not the first variable.
+
 Importing larger regions, the cache may need to be enlarged with the -C flag.  Playing around with that value until you are able to read in the data may be necessary. 
+
+**EDIT:**  If you encounter an error such as: "Error: Connection to database failed: fe_sendauth: no password supplied" the *pg_hba.conf* file needs to be modified from md5 to trust.  The file was located in the data directory of the PostgreSQL installation location.  I recently ran into this when I reinstalled Windows 10.
 
 ## Acquiring Data
 

@@ -94,3 +94,13 @@ for (k in 1:length(uRegions)) {
 
 ![]({{ site.url }}/assets/2015-12-07-Draw-Poly-PostGIS-OSM-R/makeplot-1.png){: .centerIMG}  
 
+**Note:**  This is missing New Brunswick, and alternative query that will include New Brunswick using the planet_osm_line can be done as below:
+
+{% highlight postgresql %}
+SELECT (dp).path[1] AS region, (dp).path AS index, ST_Y((dp).geom) AS lat, ST_X((dp).geom) AS lon
+FROM (SELECT ST_DumpPoints(ST_Collect(way)) AS dp
+FROM planet_osm_line where boundary='administrative' and admin_level = '4') AS foo
+ORDER BY index;
+{% endhighlight %}
+
+The only difference is that planet_osm_line is used compared with planet_osm_polygon, though some gaps may appear.
