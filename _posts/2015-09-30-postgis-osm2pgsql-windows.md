@@ -14,9 +14,9 @@ The first and most important part is to download Postgresql, which can be found 
 
 Opening up pgAdmin III, a new database can be created with a specific name and owner.  The next step is to set up the database to accept the spatial data.  To do this, highlight your created database and near the top of the screen there should be a SQL button, click this and execute the command below:
 
-```
+{% highlight postgresql %}
 CREATE EXTENSION postgis
-```
+{% endhighlight %}
 
 An output of: *Query returned successfully with no result in 1480 ms.* should be returned.
 

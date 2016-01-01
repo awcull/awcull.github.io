@@ -20,19 +20,19 @@ ST_Collect gathers all values from the geometry for a particular set and returns
 
 Combining both ST_DumpPoints and ST_Collect to gather the information from the province level boundaries of the Canada information give:
 
-```
+{% highlight postgresql %}
 SELECT ST_DumpPoints(ST_Collect(way)) AS dp 
  FROM  planet_osm_polygon where boundary='administrative' and admin_level = '4') AS foo
-```
+{% endhighlight %}
 
 Using the path will return the region and order, ST_X/Y will transform the points to lat/lon.  The region can be extracted using path[1] and the region and order can be passed back using path on the dumped points (dp).
 
-```
+{% highlight postgresql %}
 SELECT (dp).path[1] AS region, (dp).path AS index, ST_X((dp).geom) AS lon, ST_Y((dp).geom) AS lat
 FROM (SELECT ST_DumpPoints(ST_Collect(way)) As dp 
  FROM  planet_osm_polygon where boundary='administrative' and admin_level = '4') As foo
 ORDER BY index;
-```
+{% endhighlight %}
 
 
 ## PostGIS and R
