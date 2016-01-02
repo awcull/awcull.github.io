@@ -44,9 +44,9 @@ With these two files, the [osm2pgsql guide](http://wiki.openstreetmap.org/wiki/O
 
 After osm2pgsql environment variable path is set up, a command like below can be used to read in data:
 
-```
+{% highlight winbatch %}
 osm2pgsql -S C:\default.style -l -c -d gis -U postgres -H localhost C:\osm\winnipeg_canada.osm.pbf
-```
+{% endhighlight %}
 
 I've had issues (*Couldn't open style file 'D:/maps/default.style': Permission denied*) if the style file (-S) location was not the first variable.
 
