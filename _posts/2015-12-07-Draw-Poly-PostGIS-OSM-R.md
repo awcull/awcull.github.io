@@ -4,6 +4,7 @@ output: html_document
 date: "2015-12-07"
 layout: post
 categories: [R, OSM, PostGIS]
+comments: true
 ---
 
 ## Introduction

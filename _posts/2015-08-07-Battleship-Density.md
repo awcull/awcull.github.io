@@ -3,7 +3,8 @@ layout: post
 title: "Battleship using Density Grid"
 output: html_document
 date:   2015-08-07
-categories: [R, Math]
+categories: [R, Math, battleship, boardgame]
+comments: true
 ---
 
 ## Introduction

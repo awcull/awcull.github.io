@@ -3,7 +3,8 @@ title: "Tim Hortons and Starbucks in Canada using Open Street Map"
 output: html_document
 date: "2016-01-02"
 layout: post
-categories: [R, OSM, PostGIS]
+categories: [R, OSM, PostGIS, starbucks, tim hortons]
+comments: true
 ---
 
 

@@ -4,6 +4,7 @@ output: html_document
 date: "2015-06-05"
 layout: post
 categories: [Hearthstone, R]
+comments: true
 ---
 
 ##Quick Facts

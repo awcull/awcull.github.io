@@ -3,6 +3,7 @@ title: "Billboard Hot 100 Historical Lyric Quick Look"
 date: "2016-03-03"
 layout: post
 categories: [R, Billboard Hot 100, Music, Text Mining, lyrics]
+comments: true
 output: html_document
 ---
 

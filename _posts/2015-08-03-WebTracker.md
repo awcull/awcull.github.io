@@ -3,6 +3,7 @@ layout: post
 title:  "Tracking Websites - Chrome Extension"
 date:   2015-08-03
 categories: [JavaScript, Chrome]
+comments: true
 ---
 
 ## Introduction

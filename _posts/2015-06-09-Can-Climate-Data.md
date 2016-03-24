@@ -4,6 +4,7 @@ output: html_document
 date: "2015-06-09"
 layout: post
 categories: [Weather, Canada, R]
+comments: true
 ---
 
 Recently for work I had to add hourly weather information to driving data from 2013 and 2014.  I had done this for 2009 to the end of 2013 easily using the [Government of Canada Climate website](http://climate.weather.gc.ca/), but at some point in 2014 the website changed how to fetch data.  This change broke my old R script and had to determine how to download hourly data from the new site.

@@ -4,6 +4,7 @@ output: html_document
 date: "2015-05-11"
 layout: post
 categories: [League of Legends, R]
+comments: true
 ---
 
 

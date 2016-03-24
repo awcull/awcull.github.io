@@ -2,8 +2,9 @@
 title: "PostGIS and osm2pgsql using Windows"
 date: "2015-09-30"
 layout: post
-categories: [postgis, osm]
+categories: [postgis, osm, windows, osm2pgsql]
 output: html_document
+comments: true
 ---
 
 This is less of a how to but more of a reminder to myself where I downloaded files and certain setup information.  The following has worked on 64 bit Windows 7 and 10.

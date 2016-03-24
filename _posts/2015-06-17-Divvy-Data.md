@@ -3,7 +3,8 @@ title: "Divvy Cycling Data - 2014"
 output: html_document
 layout: post
 date: "2015-06-17"
-categories: [R]
+categories: [R, divvy, cycling]
+comments: true
 ---
 
 This data was released in early 2014 and was originally a quick look at it.  This post may seem familiar if you followed my previous website and that is because it was posted on there.

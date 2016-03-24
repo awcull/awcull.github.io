@@ -4,6 +4,7 @@ output: html_document
 date: "2015-09-05"
 layout: post
 categories: [R, Movies, IMDB]
+comments: true
 ---
 
 

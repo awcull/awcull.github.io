@@ -3,6 +3,7 @@ title: "Hearthstone April 2015 - Season 13"
 layout: post
 date:   2015-05-02 22:17:23
 categories: [hearthstone, HS]
+comments: true
 ---
 ##Quick Facts
 

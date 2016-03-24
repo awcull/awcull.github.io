@@ -4,6 +4,7 @@ output: html_document
 date: "2015-08-25"
 layout: post
 categories: [R, C#, Hearthstone]
+comments: true
 ---
 
 ## Introduction

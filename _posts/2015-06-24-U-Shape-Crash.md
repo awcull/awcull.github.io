@@ -4,6 +4,7 @@ output: html_document
 layout: post
 categories: [Driving, R]
 date: "2015-06-24"
+comments: true
 ---
 
 ##Introduction

@@ -4,6 +4,7 @@ date: "2015-10-13"
 layout: post
 categories: [postgis, osm, R]
 output: html_document
+comments: true
 ---
 
 

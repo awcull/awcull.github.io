@@ -2,7 +2,8 @@
 title: "Snakes and Ladders with R doParallel"
 date: "2015-07-16"
 layout: post
-categories: [R]
+categories: [R, snakes and ladders, boardgame]
+comments: true
 ---
 
 

@@ -3,7 +3,8 @@ title: "Rvest and SelectorGadget"
 output: html_document
 date: "2015-07-11"
 layout: post
-categories: [R]
+categories: [R, selectorgadget, scrape]
+comments: true
 ---
 
 I recently discovered [rvest](http://cran.r-project.org/web/packages/rvest/index.html) and [SelectorGadget](http://selectorgadget.com/) as a way to scrape data from websites easily.  This is a follow up to a previous post [here](http://awcull.com/2015/07/03/Champ-Info.html) about how I obtained the data.
