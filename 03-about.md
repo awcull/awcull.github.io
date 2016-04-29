@@ -10,7 +10,7 @@ In the past during as an undergraduate studying physics at the University of Man
 After graduating, I took a few courses in computer science before joining the CanDrive project, a longitudinal study of older drivers across Canada.  In my role there, I worked on data management and analysis of the
 gathered GPS data.  As well in 2014, I started [Bit Recursion Software][bitrec] as I started to become more interested in mobile application development.
 
-Beyond work, I can be found biking, brewing beer/wine, or playing video games.
+Beyond work, I can be found biking, brewing beer/wine, playing video games, or reading.
 
 [bitrec]: http://bitrecursion.com
 [bitrec2]:	https://play.google.com/store/apps/developer?id=Bit+Recursion+Software+Incorporated
