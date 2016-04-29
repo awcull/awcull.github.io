@@ -13,7 +13,7 @@ comments: true
 
 [X Files](http://www.imdb.com/title/tt0106179/) was a favorite TV show of mine as a kid and with the revival coming in 2016, I wanted to take a look at each episode IMDB ratings.  Using the [OMDb API](http://www.omdbapi.com/), we can query each episode in JSON format and extract the needed information.  This post will take a look at how to do this using R and packages rjson and ggplot2.
 
-#Parsing JSON with R
+# Parsing JSON with R
 
 Loading rjson:
 
@@ -108,7 +108,7 @@ fromJSON(file="http://www.omdbapi.com/?t=X+Files&Season=1&Episode=1", method="C"
 ## [1] "True"
 {% endhighlight %}
 
-##Storing Info
+## Storing Info
 
 The information will be stored as a data frame using the following columns:
 
@@ -124,7 +124,7 @@ The information will be stored as a data frame using the following columns:
 xf.df <- data.frame(num=NA, season=NA, episode=NA, title=NA, release=NA, rate=NA, stringsAsFactors=F)
 {% endhighlight %}
 
-##Gathering the Data
+## Gathering the Data
 
 According to IMDB there are 9 seasons of X Files.  Using this information and the above, it will be possible to gather the information.  This may not be the best way to do it in R but will get the job done.
 
@@ -226,7 +226,7 @@ kable(xf.df)
 
 Well, we have an issue.  This API does not seem to have information for a variety of episodes and missing whole seasons.  So what is next?  Going right to the source, [IMDB Interfaces](http://www.imdb.com/interfaces).  Downloading the ratings.list file from the provided FTP, we will attempt to parse the information from there.
 
-###IMDB Data
+### IMDB Data
 
 Opening the downloaded file in a Notepad++, we can see that it does have X Files under the Movie Ratings Report heading
 
@@ -302,7 +302,7 @@ ggplot(imdb.xf.df, aes(x=season, y = rating, colour=season, group=season)) + geo
 
 ![boxplot of season ratings]({{ site.url }}/assets/2015-05-18-XFiles-Season-Rating/plot1-2.png){: .centerIMG} 
 
-##Quick Information
+## Quick Information
 
 
 
@@ -328,6 +328,6 @@ The worst 6 episode:
 |  6.2   |   1    |    8    |        Space         |
 |  6.0   |   3    |   18    |   Teso dos Bichos    |
 
-#Conclusion
+# Conclusion
 
 Remember to use to original source of data as much as possible!!!

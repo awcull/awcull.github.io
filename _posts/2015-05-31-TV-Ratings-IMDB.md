@@ -9,11 +9,11 @@ comments: true
 
 
 
-##Introduction
+## Introduction
 
 This is a follow up to a previous post about [graphing X Files episodes ratings](http://awcull.com/2015/05/18/XFiles-Season-Rating.html).  In this post, I will generalize the method and clean up the code to subset the IMDB ratings data to almost any show in the IMDB ratings file.  The ratings file can be found at [IMDB Interfaces](http://www.imdb.com/interfaces).
 
-##Data
+## Data
 
 Opening the ratings file in a text editor we can see it looks like this:
 
@@ -25,7 +25,7 @@ Opening the ratings file in a text editor we can see it looks like this:
 
 This has a mix of tab and space deliminated and will have to be cleaned up before the data frame is created.  
 
-###Function
+### Function
 
 
 {% highlight r %}
@@ -62,10 +62,10 @@ show.data <- get.IMDB.data(fp, showName)
 
 Unfortunately with this implementation, the show title must be a very close match.  Cases are ignored but a show like Star Trek: The Next Generation will not be found if the ':' is missing from Trek.  Although there is an error catch, searching should be improved in a future version.
 
-##Checking the data
+## Checking the data
 
 
-###Show Titles
+### Show Titles
 
 One of the first values to be checked is that it did not grab any extra shows:
 
@@ -97,7 +97,7 @@ kable(data.frame(table(as.character(show.data$Title))), align="c")
 |:--------:|:----:|
 | The Wire |  60  |
 
-###Seasons
+### Seasons
 
 We should also check that all seasons are present.  Now this is more tricky with regards to the given data set.  Since we do not know how many seasons there are, we will assume that the greatest value, is the total number of seasons.  This simplifies it, but again if last season is missing, we will not know using this data set and other sources would need to be used to verify (check IMDB or the shows Wikipedia entry).
 
@@ -116,7 +116,7 @@ sum(!(1:max(show.data$Season.Num) %in% show.data$Season.Num))
 
 Since the sum of not found seasons is 0, we can assume we have all the seasons present in the data set.
 
-###Episodes
+### Episodes
 
 Again, we can use this same idea to check the episode numbering.  As before, we will make the assumption that the total number of episodes in a season is the same as the maximum episode number for the respective season.  To double check, we would need to use another source of data (IMDB, Wikipedia, etc.).  
 
@@ -143,7 +143,7 @@ kable(ep.check, align="c")
 
 From this and the assumptions made, we can say we have all the seasons and episodes for the show.
 
-##Graphs
+## Graphs
 
 Lets generate the graphs like the X Files post, one thing to note is that to use the colour brewer, the colour variable should be a factor.
 
@@ -164,7 +164,7 @@ ggplot(show.data, aes(x=Season.Num, y = Rate, colour=factor(Season.Num), group=S
 
 ![]({{ site.url }}/assets/2015-05-31-TV-Ratings-IMDB/graphs-2.png){: .centerIMG} 
 
-###Conclusion
+### Conclusion
 
 Hopefully, this is a much clearer version than the previous post and maybe learned something about R.
 

@@ -11,7 +11,7 @@ This data was released in early 2014 and was originally a quick look at it.  Thi
 
 Unfortunately, at the time the data was obtained it is not clean. This is nothing new and sort of expected, so a few steps had to be taken to clean up the data first.
 
-##Data Clean Up
+## Data Clean Up
 
 After reading in the csv file, the function summary was applied to it. From this, trip_id, bikeid, birthyear can be seen as numerical columns but from_station_id, to_station_id and tripduration are showing as character columns where they should be numerical as well.
 
@@ -23,7 +23,7 @@ _from_station_id and to_station_id_ had a "#N/A" for station at Congress Pkwy &a
 
 The last bit of clean up was setting the starttime and endtime to yyyy-mm-dd instead of dd/mm/yyyy.
 
-##Visualization
+## Visualization
 
 This was not meant to be an in depth look but just a few plots to see the data quickly.
 
@@ -45,7 +45,7 @@ This was not meant to be an in depth look but just a few plots to see the data q
 
 ![]({{ site.url }}/assets/2015-06-17-Divvy-Cycling-Data/weekday vs weekend.png){: .centerIMG} 
 
-##Notes
+## Notes
 
 The most interesting piece I thought came from the weekday vs weekend graph.  During weekdays, the 'rush hour' on way to or from work was the busiest where on weekends it was in during the day.  People may be using this service to commute or partially commute to and from work which if true is great use of this.  As well people twenty and thirty years old are primary users of this service from the Age graphs.
 

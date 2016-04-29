@@ -13,13 +13,13 @@ comments: true
 
 
 
-#Introduction
+# Introduction
 
 On May 8-10th 2015, Team Solo Mid (TSM) played in the Mid Season Invitational which included the winners from each regions: Korean, Europe, China, SEA, and wildcard team.  Coming into the tournament, they were favored coming from a win from the NA LCS 2015 Spring Championship and IEM Katowice 2015.  Despite these recent wins, TSM went 1-4 and knocked out of group stages in convincing fashion.  Many people were blaming the players to the coaching staff for the disappointing performance on Reddit and social media based on the performance.  This article hopes to shine some light into one aspect, the jungle pressure provided by TSM and opposing teams.
 
 The first 10 minutes or until all outer towers are taken by either team is looked at.  This provides an insight of the early game jungle pressure exerted by each time.
 
-#2015 TSM Spring Split and Playoffs
+# 2015 TSM Spring Split and Playoffs
 
 
 
@@ -39,7 +39,7 @@ The reason for the first ~3 minutes and between 7:20-9 minutes is low is due to 
 
 Most ganks tend to favor the Duo lane of Wildturtle and Lustboy but generally even among all lanes.
 
-##TSM vs Others
+## TSM vs Others
 
 Looking at how other teams focused their ganking attention is also important:
 
@@ -51,11 +51,11 @@ Looking at how other teams focused their ganking attention is also important:
 
 Most ganks tend to be aimed at Bjergsen and Dyrus with less attention paid to the duo of Wildturtle and Lustboy.  TSM was under more pressure in the first 10 minutes with the opposing jungler attemping 47 ganks to Santorin's 34.
 
-#2015 Mid Season Invitational
+# 2015 Mid Season Invitational
 
 
 
-##TSM
+## TSM
 
 <img src="{{ site.url }}/assets/2015-05-11-TSM-MSI-Ganks/msi gankWho-1.png" title="" alt="" style="display: block; margin: auto;" />
 
@@ -65,7 +65,7 @@ Most ganks tend to be aimed at Bjergsen and Dyrus with less attention paid to th
 
 This still follows the same trend of favouring the duo lane.  Granted it was only 5 games but almost no focus given to mid and there was no help for Dyrus.
 
-##TSM vs Others
+## TSM vs Others
 
 Taking a look at other teams, shows a drastic difference:
 
@@ -84,7 +84,7 @@ Although this does not answer the question about the poor performance, it gives 
 The data collected was limited.  Vision was not taken into account or was it a successful gank granting a kill or burnt summoner.  This would need to be collected to move towards a more solid conclusion.
 
 
-#Data
+# Data
 
 Data can be found at link below:
 

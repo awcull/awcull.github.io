@@ -7,7 +7,7 @@ categories: [Hearthstone, R]
 comments: true
 ---
 
-##Quick Facts
+## Quick Facts
 
 
 | Number of Games | Final Rank | Wins | Losses | Ties | Win % |
@@ -16,7 +16,7 @@ comments: true
 
 ![]({{ site.url }}/assets/2015-07-03-HS-June-Stats/qFactsTab-1.png){: .centerIMG}
 
-##Season 15
+## Season 15
 
 Well, season is over and did not make my goal of rank 5 or better.  
 
@@ -26,9 +26,9 @@ This season I also was able to craft [Alexstrasza](http://hearthstone.gamepedia.
 
 <br><br>
 
-###Warlock
+### Warlock
 
-####Mid Aggro
+#### Mid Aggro
 
 This deck still proving to be very effective against most classes.  A change was made to help in the Aggro match ups was the [Void Terror](http://hearthstone.gamepedia.com/Void_Terror).  This exploits the fact that a lot of aggro decks do not run [Big Game Hunter](http://hearthstone.gamepedia.com/Big_Game_Hunter) and gives another egg activation.
 
@@ -38,7 +38,7 @@ This deck still proving to be very effective against most classes.  A change was
 |  [Warlock: Mid]({{ site.url }}/assets/2015-05-11-warlockMid.png)   |   54    | 32 | 22 | 0 | 59.26 |  2-1-0   |   7-4-0   |  6-3-0  |   5-3-0    |   2-1-0   |  1-2-0   |   1-0-0   |   2-8-0    |   6-0-0    |
 | [Warlock: Mid v2]({{ site.url }}/assets/2015-06-19-warlockMidv2.png) |   32    | 18 | 14 | 0 | 56.25 |  0-0-0   |   3-2-0   |  4-2-0  |   4-4-0    |   0-0-0   |  3-2-0   |   1-0-0   |   2-1-0    |   1-3-0    |
 
-####Handlock
+#### Handlock
 
 Although this deck should still work, it is not the type of deck I'm use to playing and still make to many mistakes with it.  It has fallen out of favor though, being replaced by the Malygos Warlock.
 
@@ -49,9 +49,9 @@ Although this deck should still work, it is not the type of deck I'm use to play
 
 <br><br>
 
-###Hunter
+### Hunter
 
-####Mid range
+#### Mid Range
 
 Mid range hunter still performing well with no real bad match ups, it still one of my fall back decks.
 
@@ -62,9 +62,9 @@ Mid range hunter still performing well with no real bad match ups, it still one 
 
 <br><br>
 
-###Mage
+### Mage
 
-####Freeze
+#### Freeze
 
 Freeze mage feels like a fun deck but requires a lot of practice and thought to be put into a turns play as it can very much effect future turns unlike a lot of aggro or mid range decks that I tend to play.  The big problem was the amount of warriors on the ladder in my ranks.  Armor effects really hinder this deck that is about surviving until bursting your opponent down.
 
@@ -75,7 +75,7 @@ Unfortunately I am missing [Bloodmage Thalnos](http://hearthstone.gamepedia.com/
 |:------------:|:-------:|:-:|:--:|:-:|:-----:|:--------:|:---------:|:-------:|:----------:|:---------:|:--------:|:---------:|:----------:|:----------:|
 | [Mage: Freeze]({{ site.url }}/assets/2015-06-17-freezeMage.png) |   22    | 9 | 13 | 0 | 40.91 |  0-1-0   |   0-2-0   |  3-1-0  |   1-2-0    |   1-0-0   |  0-1-0   |   3-0-0   |   0-2-0    |   1-4-0    |
 
-####Tempo
+#### Tempo
 
 Tempo mage is back in a new form using some mechs to add spare parts and provide creature threats.  Although did not play this deck much, I did see it with very small variations all through out the ladder.  
 
@@ -86,6 +86,6 @@ Tempo mage is back in a new form using some mechs to add spare parts and provide
 
 <br><br>
 
-##Next Season
+## Next Season
 
 Goal for next season is to reach at least rank 5 and play more freeze mage or malygos warlock.

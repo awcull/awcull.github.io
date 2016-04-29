@@ -5,7 +5,7 @@ date:   2015-05-02 22:17:23
 categories: [hearthstone, HS]
 comments: true
 ---
-##Quick Facts
+## Quick Facts
 
 | Number of Games | Final Rank | Wins | Losses | Ties | Win % |
 |:---------------:|:----------:|:----:|:------:|:----:|:-----:|
@@ -13,15 +13,15 @@ comments: true
 
 ![plot of Season 13 Progress]({{ site.url }}/assets/2015-05-02/2015-05-02-HS_April_StatsqFactsTab-1.png){: .centerIMG} 
 
-##Season 13
+## Season 13
 
 Season 13 saw a lot of meta changes with [Black Rock Mountain Adventure](http://us.battle.net/hearthstone/en/expansions-adventures/blackrock-mountain/) being released each week through April.  This brought on new cards and a new popular deck using [Grim Patron](http://hearthstone.gamepedia.com/Grim_Patron) in Warrior to flood the board.  As well as the resurgence of Zoo decks with [Imp Gang Boss](http://hearthstone.gamepedia.com/Imp_Gang_Boss).  For me it was a learning experience in deck building, with some failing to capture the former glory such as my mid range hunter and adapting to play a new card, [Flamewaker](http://hearthstone.gamepedia.com/Flamewaker), to play a tempo mage deck.
 
 <br><br>
 
-###Warlock
+### Warlock
 
-####Handlock
+#### Handlock
 
 [Deck]({{ site.url }}/assets/hs-decks/2015-01-16-handlock.png)
 
@@ -34,9 +34,9 @@ This was a deck I had hoped to continue to learn from last season.  Unfortunatel
 
 <br><br>
 
-###Hunter
+### Hunter
 
-####Mid range
+#### Mid range
 
 [Deck v2]({{ site.url }}/assets/hs-decks/2015-04-21-midHunterV2.png)
 
@@ -49,7 +49,7 @@ This season I changed my old mid range deck to include some new cards like [Empe
 |  Hunter: Mid   |       15        |  7   |   8    |  0   |  2-4-0   |   0-0-0   |  1-1-0  |   1-2-0    |   1-0-0   |   0-0-0   |   0-0-0    |   2-0-0    |
 | Hunter: Mid v2 |        6        |  5   |   1    |  0   |  1-0-0   |   0-0-0   |  0-0-0  |   0-0-0    |   0-0-0   |   0-0-0   |   2-0-0    |   1-1-0    |
 
-####Face
+#### Face
 
 [Deck]({{ site.url }}/assets/hs-decks/2015-04-02-faceHunter.png)
 
@@ -62,9 +62,9 @@ Not much to say here, I just don't like the deck.  It either works really well o
 
 <br><br>
 
-###Mage
+### Mage
 
-####Mech
+#### Mech
 
 [Deck]({{ site.url }}/assets/hs-decks/2015-04-01-mechMagev5.png)
 
@@ -75,7 +75,7 @@ My old stand by deck has not changed to much.  Still provides a consistant game 
 |:-------------:|:---------------:|:----:|:------:|:----:|:--------:|:---------:|:-------:|:----------:|:---------:|:---------:|:----------:|:----------:|
 | Mage: Mech v5 |       20        |  16  |   4    |  0   |  2-0-0   |   4-0-0   |  1-1-0  |   1-1-0    |   3-0-0   |   0-1-0   |   2-1-0    |   1-0-0    |
 
-####Aggro
+#### Aggro
 
 [Deck]({{ site.url }}/assets/hs-decks/2015-04-28-mageAggro.png)
 
@@ -86,7 +86,7 @@ This deck was from the Chinese scene and is very aggro.  The essence of the deck
 |:-----------:|:---------------:|:----:|:------:|:----:|:--------:|:---------:|:-------:|:----------:|:---------:|:---------:|:----------:|:----------:|
 | Mage: Aggro |        6        |  4   |   2    |  0   |  0-0-0   |   1-0-0   |  2-0-0  |   0-0-0    |   0-0-0   |   0-0-0   |   1-1-0    |   0-0-0    |
 
-####Tempo
+#### Tempo
 
 [Deck]({{ site.url }}/assets/hs-decks/2015-04-24-tempMage.png)
 
@@ -99,6 +99,6 @@ My new favorite deck.  With the addition of Flamewaker to the old tempo mage dec
 
 <br><br>
 
-##Next Season
+## Next Season
 
 My goal for next season is to try and hit rank 5 or better.  As well as try to branch out to other classes like Druid or Paladin, but need to gather gold or dust to unlock class staples such as Ancient of Lore or Tirion.

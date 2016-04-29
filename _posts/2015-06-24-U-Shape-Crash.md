@@ -135,7 +135,7 @@ fP.cens.2013 <- paste0(cens.base, "/", "Bridged-Race Population Estimates 2013.t
 cpm.2013 <- get.crash.per.mil(fP.fars.2013, fP.cens.2013)
 {% endhighlight %}
 
-####*Graphing*
+#### *Graphing*
 
 To graph the data the _ggplot2_ package will be used with age on x-axis and crashes per million on y-axis.
 
@@ -181,6 +181,6 @@ p.2013
 
 ![]({{ site.url }}/assets/2015-06-24-U-Shape-Crash/graphs-5.png){: .centerIMG}
 
-##Conclusion
+## Conclusion
 
 As was the case in the paper, the U shaped trend continues in recent years.

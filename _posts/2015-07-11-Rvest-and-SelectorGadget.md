@@ -9,11 +9,11 @@ comments: true
 
 I recently discovered [rvest](http://cran.r-project.org/web/packages/rvest/index.html) and [SelectorGadget](http://selectorgadget.com/) as a way to scrape data from websites easily.  This is a follow up to a previous post [here](http://awcull.com/2015/07/03/Champ-Info.html) about how I obtained the data.
 
-###Introduction
+### Introduction
 
 The goal is to scrape the win/loss information for each player's champion selection from the 2013-2015 NA/EU LCS season.  To do this SelectorGadget can be used to get the required information to feed into rvest and get the highlighted information.
 
-####Import Site
+#### Import Site
 
 To do this, _readLines_ and _HTMLTreeParse_ was used to import the site.
 
@@ -32,7 +32,7 @@ getWebsite <- function(webpage) {
 pagetree <- getWebsite(website)
 {% endhighlight %}
 
-####Teams
+#### Teams
 
 The first thing is to get what teams played during the week, to do this we can highlight the selected regions of interest and deselect regions that are of no interest. 
 
@@ -63,7 +63,7 @@ getTeams <- function(pagetree) {
 }
 {% endhighlight %}
 
-####Player and Champion
+#### Player and Champion
 
 This requires more work.  The easiest way to do this was to grab the table and using the design of the 1st and 2nd value being champion followed by player name.  Originally, we get the table and then extract the data into lists.  This is because the number of items bought per game is unknown as well as the trinkets was only introduced in the 2014 season.
 
@@ -211,7 +211,7 @@ head(getDate(pagetree))
 ## [1] "5/30/2015" "5/30/2015" "5/30/2015" "5/30/2015" "5/30/2015" "5/30/2015"
 {% endhighlight %}
 
-####Putting it together
+#### Putting it together
 
 In order to put this together, the above functions are called and checked to make sure that data is of the same length to combine it to a data frame.  
 
@@ -322,6 +322,6 @@ kable(head(NA.2015.spring), row.names=F, align='c')
 |   Balls    |  Gnar   |    Cloud9    | 0  | 2015-01-24 |
 
 
-###Conclusion
+### Conclusion
 
 Using this, it can be combined to form a final data format and looped over to gather all the data.  There are a few things not shown here, such as standardizing the dates, checking for misspelled player names (Dyrus/Dryus), players not updated (SELFIE NO PAGE FOUND, SELFIE), and fixing bo3/5 series where wins are not 0 or 1 but can be 0-5.

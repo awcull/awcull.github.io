@@ -8,13 +8,13 @@ comments: true
 
 
 
-##Introduction
+## Introduction
 
 Snakes and Ladders is a very simple board game between two or more players.  The game has numbered squares that the player moves through by rolling a 6 sided dice but if a player lands on a certain square they get moved up (ladder) or down (snakes).  This continues on until the a player reaches the last numbered square.
 
 A single player will be simulated in this using the _foreach_ and _doParallel_ packages in R.  Since each play through is independent of each other, this can be simulated in parallel allowing a great speed up.
 
-##Setup
+## Setup
 
 This simulation will use a Milton Bradley's Chutes and Ladders game board c. 1952, taken from [Wikipedia page](https://en.wikipedia.org/wiki/Snakes_and_Ladders#/media/File:Cnl03.jpg).  This comprises of 100 squares with 9 ladders and 10 slides.  
 
@@ -96,11 +96,11 @@ while(curLoc < 100) {
 
 This sets up the base game play, there are other variants such as rolling a 6 lets you roll again and need to roll exact value to reach the end of the board or you go back from the end the difference between the roll and remaining squares.
 
-###foreach and doParallel
+### foreach and doParallel
 
 Now, setting this up to simulate a certain number (N=100000) of play through using foreach and doParallel packages.  The time taken to simulate N=100000 play through will be recorded for both parallel and sequential methods.
 
-####Parallel
+#### Parallel
 
 It is surprisingly easy to set up a parallel script in R using the foreach and doParallel packages.  The steps outlined are described below.
 
@@ -176,7 +176,7 @@ ptime
 ##  326.48
 {% endhighlight %}
 
-####Sequential
+#### Sequential
 
 To modify the above to run sequentially, the _%dopar%_ argument is changed to _%do%_.  The output and timing variable was also changed to show different timing between sequential and parallel.
 
@@ -220,7 +220,7 @@ stime
 {% endhighlight %}
 
 
-###Results
+### Results
 
 The difference between running sequential and parallel:
 
@@ -240,7 +240,7 @@ Using these packages, it is easy to get a large speed up on parallizable problem
 
 <br>
 
-####Snakes and Ladders
+#### Snakes and Ladders
 
 To take a look at the turns to complete the game:
 

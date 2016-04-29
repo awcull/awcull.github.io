@@ -7,7 +7,7 @@ categories: [Hearthstone, R]
 comments: true
 ---
 
-##Quick Facts
+## Quick Facts
 
 | Number of Games | Final Rank | Wins | Losses | Ties | Win % |
 |:---------------:|:----------:|:----:|:------:|:----:|:-----:|
@@ -15,7 +15,7 @@ comments: true
 
 ![]({{ site.url }}/assets/2015-06-05-HS-May-Stats/qFactsTab-1.png){: .centerIMG}
 
-##Season 14
+## Season 14
 
 Season 14 was a bit of an up and down.  I did not achieve the goal of reaching rank 5 but did improve by making it one better to rank 8 with the last win on a win streak.  The bad was the 15 games on Rogue to get 5 wins quest and a week lost of play while out of the city for work.
 
@@ -23,9 +23,9 @@ Overall, it was a good learning experience in modifying decks (Tempo Mage) and v
 
 <br><br>
 
-###Warlock
+### Warlock
 
-####Mid Aggro
+#### Mid Aggro
 
 Feels like a powerful deck so far, the draw engine that is Warlock hero ability lets it shine when low on cards.  With Power Overwhelming, it provides a surprising amount of burst that wins games quite often when starting to fall behind.
 
@@ -36,9 +36,9 @@ Feels like a powerful deck so far, the draw engine that is Warlock hero ability 
 
 <br><br>
 
-###Hunter
+### Hunter
 
-####Mid range
+#### Mid range
 
 
 Mid range hunter still doing its job, with a 6-1 record.  Although it was not played as much in favor of Mage, it still seems to be a strong deck with a very powerful mid game component.
@@ -50,9 +50,9 @@ Mid range hunter still doing its job, with a 6-1 record.  Although it was not pl
 
 <br><br>
 
-###Mage
+### Mage
 
-####Mech
+#### Mech
 
 Mech mage has somewhat fallen out of favor recently.  It has suffered from running out of steam against a lot of other decks if it does not snowball or gain a presence early.  With patron warrior and new warlock decks, it also does not have an effective way to clear the board once it losses its advantage.  Still worked well early in the season.
 
@@ -61,7 +61,7 @@ Mech mage has somewhat fallen out of favor recently.  It has suffered from runni
 |:-------------:|:------------:|:----:|:------:|:----:|:-----:|:--------:|:---------:|:-------:|:----------:|:---------:|:--------:|:---------:|:----------:|:----------:|
 | [Mage: Mech v5]({{ site.url }}/assets/hs-decks/2015-04-01-mechMagev5.png) |      51      |  28  |   23   |  0   | 54.9  |  1-2-0   |   3-3-0   | 11-4-0  |   5-3-0    |   2-4-0   |  2-1-0   |   1-2-0   |   2-3-0    |   1-1-0    |
 
-####Tempo
+#### Tempo
 
 One of my favorite decks to play despite its consistency had to be changed to deal with more aggro decks.  The inclusion of [Mirror Entity](http://hearthstone.gamepedia.com/Mirror_Image) helped to protect Flame Waker and Mana Wyrm but in the end did not handle Hunters to the ability that I had hoped.
 
@@ -75,7 +75,7 @@ A new version of this deck has popped up recently mixing Mech and Tempo mage tog
 
 <br><br>
 
-###Rogue
+### Rogue
 
 I'm terrible at Rogue, there I said it.  It is not so much counting lethal but everything you do feels reactionary and at the same time has the same feeling of putting you further behind.  The deck felt like I was just surviving long enough to try and use the combo to finish my opponent.  
 
@@ -88,6 +88,6 @@ Although I'm not sure if Rogue just has fallen so far out of favor recently whic
 
 <br><br>
 
-##Next Season
+## Next Season
 
 Goal for next season is to reach at least rank 5.  

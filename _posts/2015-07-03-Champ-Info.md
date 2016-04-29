@@ -14,7 +14,7 @@ Watching NA LCS on June 28th, Cloud9's Balls gave up his 17 win game streak on R
 
 At the same time, I learned about [SelectorGadget](http://selectorgadget.com/) and the package rvest.  In a future post, I will outline how I used this with [Leaguepedia](http://lol.gamepedia.com/League_of_Legends_Wiki) site to gather the required information.
 
-###Data
+### Data
 
 The data was collected from Leaguepedia, taking the champion, player, date, team, and win/loss of each game in the 2013-2015 Spring and Summer LCS Regular season and Playoffs. 
 

@@ -9,7 +9,7 @@ comments: true
 
 Recently for work I had to add hourly weather information to driving data from 2013 and 2014.  I had done this for 2009 to the end of 2013 easily using the [Government of Canada Climate website](http://climate.weather.gc.ca/), but at some point in 2014 the website changed how to fetch data.  This change broke my old R script and had to determine how to download hourly data from the new site.
 
-##Gathering Data
+## Gathering Data
 
 The big change on the new redesigned site was that the download data button is no longer a direct link.  Viewing the source, F12 in Chrome, and some digging will show the variables and address to query in order to download the file.
 
@@ -75,7 +75,7 @@ getWeather(station.id, year, month, outDir)
 
 It is important to note that if a call is outside the bounds of available data or no data, NO error is produced.  Instead it will return a file with header information, date, and time but no information about weather.
 
-##Reading in data
+## Reading in data
 
 Now that the files have been saved, to read in the files is easy:
 
@@ -136,7 +136,7 @@ tail(weather.df[,c("Date.Time", "Temp...C.", "Weather")])
 ## 11712 2014-12-31 23:00      -5.3          <NA>
 {% endhighlight %}
 
-##Conclusion
+## Conclusion
 
 Hopefully this provides a way to gather past climate data from Government of Canada's website.  In the future, this may be modified to handle more than one station id at a time inside the function.  I used an outer loop over station ids to gather the required information that I needed.
 

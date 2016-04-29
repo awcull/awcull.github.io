@@ -4,7 +4,6 @@ output: html_document
 date: "2016-01-02"
 layout: post
 categories: [R, OSM, PostGIS, starbucks, tim hortons]
-comments: true
 ---
 
 
