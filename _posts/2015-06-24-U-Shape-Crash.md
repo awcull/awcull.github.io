@@ -4,16 +4,15 @@ output: html_document
 layout: post
 categories: [Driving, R]
 date: "2015-06-24"
-comments: true
 ---
 
-##Introduction
+## Introduction
 
 With the aging population in North America, one of the most cited issues is about the U shaped trend of crash fatalities compared to age.  One of the papers that highlights this was back in [1993 American Journal of Epidemiology by Leonard Evans](http://www.scienceservingsociety.com/p/104.pdf) where younger drivers had a higher crash risk that decreased with age and increasing again as people got older.  Although this is not saying older drivers are more unsafe but other factors such as being more frail and impacts that a younger person would walk away from it would be fatal for an older person.
 
-##Data
+## Data
 
-####*FARS*
+#### *FARS*
 
 The crash data was obtained from the [Fatality Analysis Reporting System (FARS)](http://www.nhtsa.gov/FARS) using the persons database file.  This has a variety of information including:
 
@@ -39,7 +38,7 @@ read.in <- function(fP) {
 }
 {% endhighlight %}
 
-####*Census*
+#### *Census*
 
 Population data was taken from [CDC Bridge-Race Population Estimates](http://wonder.cdc.gov/bridged-race-population.html).  This provides yearly population data of from the United States based on *Age* and *Gender*.
 
@@ -62,7 +61,7 @@ read.census <- function(fP) {
 }
 {% endhighlight %}
 
-####*Crashes Per Million*
+#### *Crashes Per Million*
 
 To calculate crash per million by age, a histogram of all crashes is made first.  After this the total population is divided into it and multiplied by a million.  
 
