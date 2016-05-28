@@ -126,7 +126,6 @@ We will need to clean up the text.  The way I will process this, is to:
 
 {% highlight r %}
 library(tm)
-{% endhighlight %}
 
 # This function will be used to clean up each episode
 getBenDialog <- function(diag) {
