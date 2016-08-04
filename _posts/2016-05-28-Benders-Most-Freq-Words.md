@@ -34,7 +34,7 @@ From the episode the top 10 words are:
 
 ## Episode Transcripts Data
 
-The data will be pulled from the [Infosphere website](https://theinfosphere.org/Episode_Transcript_Listing).  Since this page used the secured protocol, the library RVest can not be used.  To get the HTML data, the newer package [httr](https://cran.r-project.org/web/packages/httr/index.html) will be used.  [SelectorGadget](http://selectorgadget.com/) can still be used to gather the proper XPath to be used.
+The data will be pulled from the [Infosphere website](https://theinfosphere.org/Episode_Transcript_Listing).  Unforunately, this does not have all seasons but will make due with what is available.  To get the HTML data, the package [httr](https://cran.r-project.org/web/packages/httr/index.html) will be used.  [SelectorGadget](http://selectorgadget.com/) can still be used to gather the proper XPath to be used.
 
 First we are going to load the libraries, set up base site address, and create the certification file.
 
