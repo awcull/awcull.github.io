@@ -17,7 +17,7 @@ For this example, we will be using [this profile](https://playoverwatch.com/en-g
 
 # URL
 
-The URL (example: https://playoverwatch.com/en-gb/career/pc/us/iddqd-2884) can be broken down into 3 important parts, *pc*, *us*, and *polar-1188*.  This is:
+The URL (example: https://playoverwatch.com/en-gb/career/pc/us/iddqd-2884) can be broken down into 3 important parts, *pc*, *us*, and *iddqd-2884*.  This is:
 
 1. *platform* - computer (pc), XBox (xbl), or Playstation (psn).
 2. *region* - North America (us), Europe (eu),  Korea (kr), or China (cn)
