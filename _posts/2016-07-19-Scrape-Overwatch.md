@@ -13,11 +13,11 @@ comments: true
 
 ## Data
 
-For this example, we will be using [this profile](https://playoverwatch.com/en-gb/career/pc/us/polar-1188).  The data is split into two different play categories, *quick play* and *competitive play*.  Each play mode has information for each played heroes in that mode.  The hero data information for the play modes will be what we are after.
+For this example, we will be using [this profile](https://playoverwatch.com/en-gb/career/pc/us/iddqd-2884), which is one of the more well known players.  The data is split into two different play categories, *quick play* and *competitive play*.  Each play mode has information for each played heroes in that mode.  The hero data information for the play modes will be what we are after.
 
 # URL
 
-The URL (example: https://playoverwatch.com/en-gb/career/pc/us/polar-1188) can be broken down into 3 important parts, *pc*, *us*, and *polar-1188*.  This is:
+The URL (example: https://playoverwatch.com/en-gb/career/pc/us/iddqd-2884) can be broken down into 3 important parts, *pc*, *us*, and *polar-1188*.  This is:
 
 1. *platform* - computer (pc), XBox (xbl), or Playstation (psn).
 2. *region* - North America (us), Europe (eu),  Korea (kr), or China (cn)
@@ -68,9 +68,9 @@ library(rvest)
 # storage info
 quickTables <- NULL
 compTables <- NULL
-btag <- "polar-1188" # storage name
+btag <- "iddqd-2884" # storage name
 
-url <- "https://playoverwatch.com/en-gb/career/pc/us/polar-1188"
+url <- "https://playoverwatch.com/en-gb/career/pc/us/iddqd-2884"
 
 # Obtain URL, if url found return the data, else "err message"
 webHTML <- tryCatch({read_html(url)}, error=function(err) "Error")
@@ -121,18 +121,18 @@ library(knitr)
 kable(compTables[[1]], align="c", caption=names(compTables[1]))
 {% endhighlight %}
 
-**polar-1188-ALL HEROES-Combat**
+**iddqd-2884-ALL HEROES-Combat**
 
 |       Combat        |  Combat   |
 |:-------------------:|:---------:|
-|  Melee Final Blows  |    99     |
-|     Solo Kills      |   2,290   |
-|   Objective Kills   |   3,579   |
-|     Final Blows     |   5,622   |
-|     Damage Done     | 3,803,115 |
-|    Eliminations     |  10,242   |
-| Environmental Kills |    17     |
-|     Multikills      |    96     |
+|  Melee Final Blows  |    61     |
+|     Solo Kills      |   639   |
+|   Objective Kills   |   1,026   |
+|     Final Blows     |   2,332   |
+|     Damage Done     | 1,457,329 |
+|    Eliminations     |  3,939   |
+| Environmental Kills |    3     |
+|     Multikills      |    50     |
 
 ## Conclusion
 
