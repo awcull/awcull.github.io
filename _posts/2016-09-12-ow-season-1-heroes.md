@@ -45,7 +45,7 @@ pRanks <- dbGetQuery(con, "SELECT rank, COUNT(*) AS NumPlayers FROM rank WHERE r
 qplot(rank, data=pRanks, geom="histogram", binwidth=1, weight=NumPlayers, xlab="Player Rank", ylab="Number of Players", main="Number of Players vs Rank")
 {% endhighlight %}
 
-![]({{ site.url }}/assets/2016-09-12-OW-Season-1-Heroes/vRanks-1.png){: .centerIMG} 
+![]({{ site.url }}/assets/2016-09-12-OW-Season-1-Heroes.md/vRanks-1.png){: .centerIMG} 
 
 It does look close enough to be normal distribution.
 
@@ -67,7 +67,7 @@ GROUP BY rank;")
 qplot(rank, data=dHero, geom="histogram", binwidth=1, weight=avg_num_heroes, xlab="Player Rank", ylab="Average Number of Champions Played", main="Average Number of Champions Played vs Player Rank")
 {% endhighlight %}
 
-![]({{ site.url }}/assets/2016-09-12-OW-Season-1-Heroes/heroDist-1.png){: .centerIMG} 
+![]({{ site.url }}/assets/2016-09-12-OW-Season-1-Heroes.md/heroDist-1.png){: .centerIMG} 
 
 For the most part, the average number of champions played is consistent with a few more on average as the rank goes up.
 
@@ -108,7 +108,7 @@ sym <- dbGetQuery(con, createQ("symmetra"))
 qplot(rank, data=sym, weight=per, binwidth=1, xlab="Rank", ylab="Percentage of Time Played", main="Symmetra\nPercentage of Play Time vs Rank")
 {% endhighlight %}
 
-![]({{ site.url }}F:/assets/2016-09-12-OW-Season-1-Heroes/unnamed-chunk-1-1.png){: .centerIMG} 
+![]({{ site.url }}F:/assets/2016-09-12-OW-Season-1-Heroes.md/unnamed-chunk-1-1.png){: .centerIMG} 
 
 Symmetra besides an anomoly at rank 28, seems to be played pretty consistently at ranks less than 50 but starts falling off as you get to higher ranks.  This tends to make sense as the teleporter may not be as useful in later ranks when players are much more coordinated on attack and defense, nullifying the need for teleporters.
 
@@ -123,7 +123,7 @@ mei <- dbGetQuery(con, createQ("mei"))
 qplot(rank, data=mei, weight=per, binwidth=1, xlab="Rank", ylab="Percentage of Time Played", main="Mei\nPercentage of Play Time vs Rank")
 {% endhighlight %}
 
-![]({{ site.url }}/assets/2016-09-12-OW-Season-1-Heroes/unnamed-chunk-2-1.png){: .centerIMG} 
+![]({{ site.url }}/assets/2016-09-12-OW-Season-1-Heroes.md/unnamed-chunk-2-1.png){: .centerIMG} 
 
 Again, Mei follows a similar trend as Symmetra, seeing more average percentage of play time at the lower less than 50 ranks and starts to fall off as you get to the higher ranks.  This may be her utility is less useful in a coordinated team of players or she was not picked to play for all the map, rather picked in situations that she can stall out a team.
 
@@ -138,7 +138,7 @@ gen <- dbGetQuery(con, createQ("genji"))
 qplot(rank, data=gen, weight=per, binwidth=1, xlab="Rank", ylab="Percentage of Time Played", main="Genji\nPercentage of Play Time vs Rank")
 {% endhighlight %}
 
-![]({{ site.url }}/assets/2016-09-12-OW-Season-1-Heroes/genji-1.png){: .centerIMG} 
+![]({{ site.url }}/assets/2016-09-12-OW-Season-1-Heroes.md/genji-1.png){: .centerIMG} 
 
 The graph supports that higher ranked players, tend to be more focused on Genji.
 
