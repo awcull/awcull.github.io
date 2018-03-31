@@ -17,11 +17,11 @@ Every year, Winnipeg likes to complain about rising fare costs.  From that idea,
 
 ## Single Trip Cost
 
-![]({{ site.url }}/assets/2018-03-31-canada-transit-fare-2018/unnamed-chunk-25-1.png){: .centerIMG}
+![]({{ site.url }}/assets/2018-03-31-canada-transit-fare-2018.md/unnamed-chunk-25-1.png){: .centerIMG}
 
 ## Monthly Cost
 
-![]({{ site.url }}/assets/2018-03-31-canada-transit-fare-2018/unnamed-chunk-26-1.png){: .centerIMG}
+![]({{ site.url }}/assets/2018-03-31-canada-transit-fare-2018.md/unnamed-chunk-26-1.png){: .centerIMG}
 
 # Data
 
