@@ -4,6 +4,7 @@ date:   '2018-03-31'
 categories: [R, Transit, Canada]
 layout: post
 comments: true
+output: html_document
 ---
 
 # Introduction
