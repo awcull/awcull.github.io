@@ -18,26 +18,46 @@ This will use the jsonlite package to deencode the string as well as fetch the c
 It's always easiest when working towards a known solution.  So the following deckcode and deck will be used:
 
  Secret Mage
+ 
  Class: Mage
+ 
  Format: Standard
+ 
  Year of the Mammoth
 
+ 
  2x (1) Mana Wyrm
+ 
  2x (2) Arcanologist
+ 
  2x (2) Frostbolt
+ 
  2x (2) Medivh's Valet
+ 
  2x (2) Primordial Glyph
+ 
  2x (3) Arcane Intellect
+ 
  2x (3) Counterspell
+ 
  1x (3) Ice Block
+ 
  2x (3) Kirin Tor Mage
+ 
  2x (3) Mirror Entity
+ 
  2x (3) Volcanic Potion
+ 
  2x (4) Fireball
+ 
  1x (4) Ghastly Conjurer
+ 
  2x (6) Kabal Crystal Runner
+ 
  1x (7) Bonemare
+ 
  2x (7) Firelands Portal
+ 
  1x (8) Medivh, the Guardian
  
 AAECAf0EBMABobcC3s0Cps4CDXHDAbsClQOrBJYF7AWjtgLXtgLpugKHvQLBwQKYxAIA
@@ -210,6 +230,7 @@ knitr::kable(deck.df, align='c')
 | 41496 |    2     |   Primordial Glyph   |  2   |
 | 42718 |    1     |   Ghastly Conjurer   |  4   |
 | 42790 |    1     |       Bonemare       |  7   |
+
 Whats left now is to sort this for final display:
  
 
