@@ -1,5 +1,5 @@
 # Plugins
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Site settings
 title: Andrew W. Cull
