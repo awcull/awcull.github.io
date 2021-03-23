@@ -3,6 +3,9 @@ title: "Finding Haikus In Twitter Using R"
 author: "Andrew Cull"
 date: "2021-02-23"
 output: html_document
+layout: post
+categories: [R, twitter, haiku, language]
+comments: true
 ---
 
 
