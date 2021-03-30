@@ -7,6 +7,8 @@ layout: post
 categories: [R, beer, Canada]
 ---
 
+**UPDATE: [An updated list for 15 x 355 mL Bud Light can be found by clicking here.](https://awcull.com/2021/03/29/budlight-canada-prices.html)**
+
 ## Introduction
 
 When privitization of liquor stores comes up, Alberta is always shown as an example of how cheap and easily obtainable it is there.  Although I can't speak to the availability of it, I decided to take a quick look into the price of a commonly available beer at each province in Canada.  To do this, a 24 can pack of Budweiser was chosen, and prices were obtained from retailer websites across Canada.  
