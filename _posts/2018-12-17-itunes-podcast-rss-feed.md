@@ -53,6 +53,7 @@ podcastList <- podcasts$feed$results
 knitr::kable(head(podcastList), align = "c")
 {% endhighlight %}
 
+<div class="table-wrapper" markdown="block">
 
 
 |        artistName         |     id     | releaseDate |           name           |  kind   |               copyright                |  artistId  | contentAdvisoryRating |                              artistUrl                               |                                                      artworkUrl100                                                      |                                                                                                                                                                                   genres                                                                                                                                                                                    |                                      url                                      |
@@ -63,6 +64,8 @@ knitr::kable(head(podcastList), align = "c")
 |    This American Life     | 917918570  | 2018-11-15  |          Serial          | podcast |    © Copyright 2018 Serial Podcast     | 364380278  |          NA           | https://itunes.apple.com/us/artist/this-american-life/364380278?mt=2 | https://is4-ssl.mzstatic.com/image/thumb/Music71/v4/61/59/94/615994ff-21b5-9817-3e89-09b7e012336d/source/200x200bb.png  |                                                                                                   list(genreId = c("1311", "26"), name = c("News & Politics", "Podcasts"), url = c("https://itunes.apple.com/us/genre/id1311", "https://itunes.apple.com/us/genre/id26"))                                                                                                   |          https://itunes.apple.com/us/podcast/serial/id917918570?mt=2          |
 |      Barstool Sports      | 1418960261 | 2018-12-12  |      Call Her Daddy      | podcast |         © 2018 Barstool Sports         | 973114159  |          NA           |  https://itunes.apple.com/us/artist/barstool-sports/973114159?mt=2   | https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/6a/d2/a8/6ad2a82c-b005-c098-e0f3-9cf42bd58872/source/200x200bb.png |                                                                                                       list(genreId = c("1303", "26"), name = c("Comedy", "Podcasts"), url = c("https://itunes.apple.com/us/genre/id1303", "https://itunes.apple.com/us/genre/id26"))                                                                                                        |     https://itunes.apple.com/us/podcast/call-her-daddy/id1418960261?mt=2      |
 |      HEAVY D SPARKS       | 1446780975 | 2018-12-16  |     HEAVY CHECKLIST      | podcast |         © All rights reserved          |     NA     |          NA           |                                  NA                                  | https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/d5/64/f9/d564f9cb-79ba-7bb7-84bf-adc9b199c037/source/200x200bb.png |                                                                                                      list(genreId = c("1321", "26"), name = c("Business", "Podcasts"), url = c("https://itunes.apple.com/us/genre/id1321", "https://itunes.apple.com/us/genre/id26"))                                                                                                       |     https://itunes.apple.com/us/podcast/heavy-checklist/id1446780975?mt=2     |
+
+</div>
 
 ## Podcast RSS Feeds from Podcast List
 
@@ -102,6 +105,7 @@ This will give us the RSS feeds for each of the top 100 podcasts found on iTunes
 knitr::kable(df, align="c")
 {% endhighlight %}
 
+<div class="table-wrapper" markdown="block">
 
 
 |                            podcast                            |                       artist                        |                                                                               feed                                                                                |
@@ -206,3 +210,5 @@ knitr::kable(df, align="c")
 |                 The GaryVee Audio Experience                  |                   Gary Vaynerchuk                   |                                                            http://askgaryvee.garyvee.libsynpro.com/rss                                                            |
 |                          Homecoming                           |                       Gimlet                        |                                                            http://feeds.gimletmedia.com/homecomingshow                                                            |
 |                 On Being with Krista Tippett                  |                  On Being Studios                   |                                                             https://onbeing.org/podcasts/podcast.xml                                                              |
+
+</div>

@@ -35,7 +35,7 @@ tmls <- tmls %>% filter(is.na(reply_to_user_id) & !is_quote & !is_retweet & is.n
 knitr::kable(tmls[sample(1:nrow(tmls),5),] %>% select(user_id, created_at, screen_name, text))
 {% endhighlight %}
 
-
+<div class="table-wrapper" markdown="block">
 
 |user_id  |created_at          |screen_name |text                                                                                                                                                                                                           |
 |:--------|:-------------------|:-----------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -44,6 +44,8 @@ knitr::kable(tmls[sample(1:nrow(tmls),5),] %>% select(user_id, created_at, scree
 |50393960 |2012-08-29 18:13:25 |BillGates   |Highlighting a few tools and resources to help teachers during this back to school season. See how to support them: http://t.co/S9UVeOPu                                                                       |
 |50393960 |2018-09-15 15:02:24 |BillGates   |New 360 video: they said he was too poor to be a pilot, but Daniel Zuma proved everyone wrong. https://t.co/9l6N83YtXa                                                                                         |
 |50393960 |2019-12-01 02:34:24 |BillGates   |The world has made incredible strides toward ending the AIDS epidemic over the last twenty years, and I’m optimistic that more progress is on the way. Explore the data: https://t.co/uQ05HXrrPL #WorldAIDSDay |
+
+</div>
 
 There are Tweets with links in the text which can be removed. Link info is held in the data frame under the *urls_t.co* list. There is definitely a better way to do this than the loop below. 
 
@@ -111,7 +113,7 @@ for (k in 1:nrow(tmls)) {
 knitr::kable(haikus, align="c")
 {% endhighlight %}
 
-
+<div class="table-wrapper" markdown="block">
 
 | user_id  |      status_id      |     created_at      | screen_name |                                         text                                         |          verse1          |              verse2               |             verse3              |
 |:--------:|:-------------------:|:-------------------:|:-----------:|:------------------------------------------------------------------------------------:|:------------------------:|:---------------------------------:|:-------------------------------:|
@@ -129,3 +131,5 @@ knitr::kable(haikus, align="c")
 | 44196397 | 1354891972406865922 | 2021-01-28 20:39:53 |  elonmusk   |           Here come the shorty apologists Give them no respect Get Shorty            |   Here come the shorty   |      apologists Give them no      |       respect Get Shorty        |
 | 44196397 | 1279875995516801024 | 2020-07-05 20:33:10 |  elonmusk   |                 Read The Story of Civilization by Will Ariel Durant                  |    Read The Story of     |       Civilization by Will        |          Ariel Durant           |
 | 59553554 | 1362440584418398211 | 2021-02-18 16:35:22 |   Wendys    |         The next big thing in chicken tech? Tune in to find out. #innovation         |  The next big thing in   |   chicken tech? Tune in to find   |        out. #innovation         |
+
+</div>

@@ -35,7 +35,7 @@ Original data:
 kable(b.df, align='c')
 {% endhighlight %}
 
-
+<div class="table-wrapper" markdown="block">
 
 |          Province          | Cost.cad |       Product       |    Date    |       Store       |                                                                                   Link                                                                                   |
 |:--------------------------:|:--------:|:-------------------:|:----------:|:-----------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -54,5 +54,6 @@ kable(b.df, align='c')
 |   Northwest Territories    |    NA    |                     |            |                   |                                                                                                                                                                          |
 |          Nunavut           |    NA    |                     |            |                   |                                                                                                                                                                          |
 
+</div>
 
 **Edit (2018-12-26)** Updated links to be clickable to reduce space in table, instead of full url

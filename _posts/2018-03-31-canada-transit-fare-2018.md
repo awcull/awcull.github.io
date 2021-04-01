@@ -30,7 +30,7 @@ Every year, Winnipeg likes to complain about rising fare costs.  From that idea,
 knitr::kable(tdata, align = 'c')
 {% endhighlight %}
 
-
+<div class="table-wrapper" markdown="block">
 
 |   |         City         | Adult.Cost..CDN |  Type   | Date.Accessed |                                                                            Fare.Site                                                                             | Year |
 |:--|:--------------------:|:---------------:|:-------:|:-------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----:|
@@ -64,3 +64,5 @@ knitr::kable(tdata, align = 'c')
 |58 |    Halifax MetroX    |     111.00      | Monthly |  2018-03-30   |                                            [Link](https://www.halifax.ca/transportation/halifax-transit/fares-tickets-passes)                                            | 2018 |
 |59 |     Fredericton      |      2.75       | Single  |  2018-03-30   |                                                            [Link](http://www.fredericton.ca/en/transit/fares)                                                            | 2018 |
 |60 |     Fredericton      |      80.00      | Monthly |  2018-03-30   |                                                            [Link](http://www.fredericton.ca/en/transit/fares)                                                            | 2018 |
+
+</div>

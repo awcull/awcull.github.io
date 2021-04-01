@@ -205,3 +205,18 @@ table {
         }
     }
 }
+
+/**
+* Scrollable tables
+*/
+.table-wrapper {
+    overflow-x: scroll;
+}
+
+.table-wrapper tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+//   table {
+//     border: 1px solid #ddd;
+//   }

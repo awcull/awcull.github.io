@@ -32,7 +32,7 @@ This falls in with the [Oscar Season](https://en.wikipedia.org/wiki/Oscar_season
 knitr::kable(last20, align='c')
 {% endhighlight %}
 
-
+<div class="table-wrapper" markdown="block">
 
 |    | Year |                       Film                        |                                     Producer(s)                                      | winner |                          link                           |  imdbId   | releaseDate | rated | releaseMonth |
 |:---|:----:|:-------------------------------------------------:|:------------------------------------------------------------------------------------:|:------:|:-------------------------------------------------------:|:---------:|:-----------:|:-----:|:------------:|
@@ -179,6 +179,8 @@ knitr::kable(last20, align='c')
 |96  | 2019 |                  Marriage Story                   |                            Noah Baumbach and David Heyman                            | FALSE  |                  /wiki/Marriage_Story                   | tt7653254 | 2019-12-06  |   R   |      12      |
 |97  | 2019 |                       1917                        |          Sam Mendes, Pippa Harris, Jayne-Ann Tenggren, and Callum McDougall          | FALSE  |                 /wiki/1917_(2019_film)                  | tt8579674 | 2020-01-10  |   R   |      01      |
 |98  | 2019 |           Once Upon a Time in Hollywood           |                David Heyman, Shannon McIntosh, and Quentin Tarantino                 | FALSE  |           /wiki/Once_Upon_a_Time_in_Hollywood           | tt7131622 | 2019-07-26  |   R   |      07      |
+
+</div>
 
 ## Code
 
