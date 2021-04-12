@@ -31,3 +31,12 @@ analytics:
   provider: google
   google: 
       tracking_id: 'UA-51150113-4'
+
+
+# site-map excludes
+defaults:
+  -
+    scope:
+      path:            "googlec674090ca8bfca16.html"
+    values:
+      sitemap:         false
